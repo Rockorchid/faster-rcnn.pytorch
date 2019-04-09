@@ -38,18 +38,18 @@ except NameError:
 
 
 class pascal_voc(imdb):
-    def __init__(self, image_set, year, devkit_path=None):
+    def __init__(self, image_set, year, devkit_path=None):     #image_set = 'trainval', year = '2007'
         imdb.__init__(self, 'voc_' + year + '_' + image_set)
         self._year = year
         self._image_set = image_set
         self._devkit_path = self._get_default_path() if devkit_path is None \
             else devkit_path
-        self._data_path = os.path.join(self._devkit_path, 'VOC' + self._year)
+        self._data_path = os.path.join(self._devkit_path, 'VOC' + self._year) #'/home/runze/Codes/faster-rcnn.pytorch/data/VOCdevkit2007/VOC2007'
         self._classes = ('__background__',  # always index 0
                          'benign', 'malignant')
-        self._class_to_ind = dict(zip(self.classes, xrange(self.num_classes)))
+        self._class_to_ind = dict(zip(self.classes, xrange(self.num_classes)))#{'__background__': 0, 'benign': 1, 'malignant': 2}
         self._image_ext = '.jpg'
-        self._image_index = self._load_image_set_index()
+        self._image_index = self._load_image_set_index() #['name in trainval.txt','',...'']
         # Default to roidb handler
         # self._roidb_handler = self.selective_search_roidb
         self._roidb_handler = self.gt_roidb
