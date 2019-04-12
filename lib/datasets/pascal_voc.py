@@ -48,7 +48,7 @@ class pascal_voc(imdb):
         self._classes = ('__background__',  # always index 0
                          'benign', 'malignant')
         self._class_to_ind = dict(zip(self.classes, xrange(self.num_classes)))#{'__background__': 0, 'benign': 1, 'malignant': 2}
-        self._image_ext = '.jpg'
+        self._image_ext = '.png'
         self._image_index = self._load_image_set_index() #['name in trainval.txt','',...'']
         # Default to roidb handler
         # self._roidb_handler = self.selective_search_roidb

@@ -1,0 +1,2266 @@
+benign_C_0478_1_RIGHT_CC.jpg
+1
+463 436 98 101 1
+cancer_B_3061_1_RIGHT_MLO.jpg
+1
+199 268 366 313 1
+benign_A_1396_1_RIGHT_MLO.jpg
+0
+cancer_A_1694_1_RIGHT_MLO.jpg
+1
+123 399 55 57 1
+benign_C_0337_1_RIGHT_CC.jpg
+1
+602 205 151 140 1
+benign_A_1785_1_RIGHT_MLO.jpg
+0
+benign_C_0286_1_RIGHT_MLO.jpg
+1
+205 540 78 74 1
+benign_D_4039_1_RIGHT_CC.jpg
+0
+benign_A_1264_1_RIGHT_CC.jpg
+1
+238 736 48 45 1
+cancer_A_1147_1_LEFT_CC.jpg
+1
+408 393 123 97 1
+cancer_A_1093_1_LEFT_CC.jpg
+0
+cancer_A_1147_1_RIGHT_CC.jpg
+0
+benign_C_0380_1_RIGHT_CC.jpg
+0
+cancer_A_1772_1_RIGHT_CC.jpg
+0
+cancer_A_1402_1_LEFT_CC.jpg
+0
+benign_A_1710_1_RIGHT_CC.jpg
+0
+cancer_A_1215_1_LEFT_MLO.jpg
+1
+256 648 201 233 1
+cancer_C_0215_1_RIGHT_MLO.jpg
+0
+cancer_D_4101_1_LEFT_CC.jpg
+1
+65 476 182 167 1
+benign_C_0393_1_LEFT_MLO.jpg
+0
+cancer_D_4049_1_LEFT_CC.jpg
+0
+cancer_A_1009_1_LEFT_MLO.jpg
+0
+benign_A_1943_1_LEFT_MLO.jpg
+0
+cancer_D_4172_1_RIGHT_CC.jpg
+1
+306 415 188 158 1
+benign_B_3356_1_RIGHT_MLO.jpg
+1
+372 580 41 44 1
+benign_B_3144_1_RIGHT_MLO.jpg
+1
+55 589 65 88 1
+benign_A_1812_1_LEFT_CC.jpg
+1
+345 615 34 39 1
+benign_A_1542_1_RIGHT_MLO.jpg
+1
+448 886 97 86 1
+cancer_B_3398_1_LEFT_MLO.jpg
+0
+cancer_B_3075_1_LEFT_MLO.jpg
+0
+cancer_B_3083_1_RIGHT_MLO.jpg
+1
+193 925 32 41 1
+benign_B_3144_1_RIGHT_CC.jpg
+1
+89 317 45 65 1
+cancer_A_1224_1_RIGHT_MLO.jpg
+0
+cancer_A_1261_1_LEFT_CC.jpg
+0
+benign_A_1785_1_LEFT_MLO.jpg
+1
+223 423 148 125 1
+benign_C_0402_1_RIGHT_CC.jpg
+1
+513 426 74 107 1
+benign_B_3154_1_RIGHT_CC.jpg
+0
+cancer_B_3412_1_LEFT_MLO.jpg
+1
+25 495 143 135 1
+benign_B_3356_1_LEFT_MLO.jpg
+0
+benign_A_1880_1_RIGHT_MLO.jpg
+0
+cancer_B_3394_1_LEFT_MLO.jpg
+0
+cancer_D_4049_1_LEFT_MLO.jpg
+0
+cancer_D_4128_1_LEFT_MLO.jpg
+1
+59 571 210 187 1
+benign_B_3483_1_LEFT_CC.jpg
+0
+benign_A_1634_1_LEFT_CC.jpg
+1
+522 1007 38 36 1
+cancer_A_1823_1_LEFT_MLO.jpg
+0
+cancer_C_0114_1_LEFT_CC.jpg
+1
+53 378 67 81 1
+benign_C_0404_1_RIGHT_CC.jpg
+1
+383 535 150 159 1
+cancer_A_1558_1_RIGHT_MLO.jpg
+0
+benign_C_0404_1_RIGHT_MLO.jpg
+1
+327 703 167 145 1
+cancer_B_3085_1_LEFT_CC.jpg
+1
+65 495 68 102 1
+benign_A_1177_1_RIGHT_CC.jpg
+1
+157 349 118 68 1
+benign_A_1767_1_RIGHT_CC.jpg
+1
+309 441 74 63 1
+cancer_C_0052_1_RIGHT_CC.jpg
+1
+495 375 36 82 1
+benign_A_1737_1_LEFT_CC.jpg
+0
+benign_B_3156_1_RIGHT_CC.jpg
+1
+362 239 81 90 1
+cancer_B_3508_1_LEFT_MLO.jpg
+1
+196 351 63 60 1
+cancer_A_1237_1_LEFT_CC.jpg
+1
+375 313 134 144 1
+cancer_B_3441_1_LEFT_MLO.jpg
+0
+cancer_B_3067_1_RIGHT_MLO.jpg
+1
+289 748 31 52 1
+cancer_C_0083_1_RIGHT_MLO.jpg
+1
+628 21 170 576 1
+benign_D_4027_1_LEFT_CC.jpg
+0
+cancer_B_3441_1_LEFT_CC.jpg
+0
+benign_A_1264_1_LEFT_CC.jpg
+0
+benign_C_0324_1_RIGHT_CC.jpg
+1
+433 457 152 162 1
+benign_C_0507_1_RIGHT_MLO.jpg
+1
+434 474 92 99 1
+cancer_C_0146_1_LEFT_CC.jpg
+2
+1 353 87 156 1
+223 493 174 166 1
+benign_C_0273_1_LEFT_CC.jpg
+1
+201 613 159 152 1
+cancer_A_1467_1_RIGHT_CC.jpg
+1
+563 689 82 72 1
+cancer_C_0083_1_RIGHT_CC.jpg
+0
+cancer_C_0161_1_RIGHT_CC.jpg
+0
+benign_A_1771_1_LEFT_CC.jpg
+0
+benign_C_0393_1_RIGHT_MLO.jpg
+1
+455 284 122 97 1
+cancer_A_1109_1_RIGHT_CC.jpg
+0
+cancer_B_3027_1_RIGHT_CC.jpg
+0
+benign_A_1858_1_LEFT_MLO.jpg
+0
+cancer_D_4056_1_RIGHT_CC.jpg
+0
+benign_A_1500_1_LEFT_CC.jpg
+0
+cancer_B_3379_1_RIGHT_MLO.jpg
+1
+407 529 52 50 1
+benign_A_1880_1_LEFT_CC.jpg
+1
+365 300 54 49 1
+cancer_C_0208_1_RIGHT_MLO.jpg
+1
+332 257 137 197 1
+benign_A_1710_1_LEFT_CC.jpg
+1
+270 507 132 132 1
+cancer_A_1102_1_LEFT_MLO.jpg
+1
+277 686 44 54 1
+benign_A_1518_1_RIGHT_MLO.jpg
+0
+benign_A_1423_1_RIGHT_MLO.jpg
+0
+cancer_A_1849_1_LEFT_CC.jpg
+1
+267 776 26 26 1
+cancer_A_1247_1_RIGHT_CC.jpg
+0
+benign_A_1397_1_RIGHT_MLO.jpg
+1
+136 520 108 117 1
+cancer_C_0083_1_LEFT_CC.jpg
+0
+benign_A_1982_1_LEFT_CC.jpg
+1
+184 481 122 118 1
+benign_A_1414_1_RIGHT_CC.jpg
+1
+237 966 93 116 1
+cancer_A_1215_1_RIGHT_MLO.jpg
+0
+cancer_A_1467_1_LEFT_CC.jpg
+0
+benign_B_3491_1_LEFT_MLO.jpg
+0
+benign_A_1812_1_LEFT_MLO.jpg
+1
+235 492 26 28 1
+cancer_B_3508_1_RIGHT_CC.jpg
+1
+505 204 103 114 1
+cancer_A_1524_1_RIGHT_MLO.jpg
+0
+benign_C_0402_1_RIGHT_MLO.jpg
+1
+413 460 75 76 1
+benign_D_4027_1_LEFT_MLO.jpg
+0
+benign_A_1599_1_LEFT_CC.jpg
+0
+benign_A_1842_1_RIGHT_CC.jpg
+0
+cancer_B_3083_1_RIGHT_CC.jpg
+1
+170 564 41 50 1
+benign_D_4004_1_RIGHT_MLO.jpg
+0
+cancer_C_0141_1_RIGHT_CC.jpg
+0
+cancer_C_0108_1_RIGHT_MLO.jpg
+0
+cancer_A_1102_1_LEFT_CC.jpg
+1
+237 454 37 49 1
+cancer_B_3373_1_LEFT_MLO.jpg
+0
+cancer_B_3061_1_LEFT_MLO.jpg
+0
+cancer_B_3083_1_LEFT_CC.jpg
+0
+benign_D_4027_1_RIGHT_CC.jpg
+1
+293 434 123 137 1
+cancer_A_1109_1_LEFT_MLO.jpg
+1
+524 316 69 63 1
+benign_A_1545_1_LEFT_MLO.jpg
+1
+324 717 43 32 1
+benign_A_1335_1_RIGHT_CC.jpg
+0
+cancer_A_1589_1_RIGHT_CC.jpg
+0
+cancer_D_4125_1_RIGHT_CC.jpg
+1
+478 464 61 131 1
+benign_D_4066_1_LEFT_CC.jpg
+0
+benign_A_1884_1_RIGHT_MLO.jpg
+0
+cancer_C_0141_1_RIGHT_MLO.jpg
+0
+benign_A_1599_1_LEFT_MLO.jpg
+0
+benign_C_0235_1_LEFT_CC.jpg
+0
+benign_A_1421_1_RIGHT_MLO.jpg
+1
+566 387 70 55 1
+benign_D_4066_1_RIGHT_CC.jpg
+1
+349 337 118 128 1
+benign_C_0337_1_RIGHT_MLO.jpg
+1
+551 503 127 129 1
+cancer_A_1237_1_RIGHT_CC.jpg
+0
+cancer_A_1211_1_RIGHT_CC.jpg
+0
+cancer_C_0204_1_RIGHT_MLO.jpg
+0
+benign_C_0312_1_LEFT_CC.jpg
+1
+349 415 89 76 1
+benign_A_1811_1_RIGHT_MLO.jpg
+0
+benign_C_0337_1_LEFT_CC.jpg
+0
+cancer_A_1622_1_LEFT_MLO.jpg
+1
+528 891 83 76 1
+benign_C_0364_1_RIGHT_CC.jpg
+0
+benign_A_1408_1_RIGHT_CC.jpg
+0
+benign_A_1781_1_LEFT_MLO.jpg
+0
+cancer_D_4101_1_LEFT_MLO.jpg
+1
+96 749 174 142 1
+benign_D_4018_1_RIGHT_CC.jpg
+1
+269 604 97 114 1
+benign_A_1784_1_LEFT_MLO.jpg
+1
+473 638 68 60 1
+benign_C_0305_1_LEFT_CC.jpg
+0
+benign_D_4039_1_LEFT_MLO.jpg
+1
+436 603 91 89 1
+benign_A_1396_1_RIGHT_CC.jpg
+0
+cancer_C_0192_1_LEFT_MLO.jpg
+0
+benign_C_0317_1_LEFT_MLO.jpg
+0
+benign_B_3490_1_RIGHT_MLO.jpg
+1
+593 634 48 52 1
+cancer_A_1009_1_LEFT_CC.jpg
+0
+cancer_A_1139_1_RIGHT_CC.jpg
+0
+cancer_D_4049_1_RIGHT_MLO.jpg
+1
+355 328 131 148 1
+cancer_B_3068_1_LEFT_CC.jpg
+0
+benign_B_3123_1_LEFT_CC.jpg
+1
+87 469 130 121 1
+benign_A_1545_1_RIGHT_CC.jpg
+0
+cancer_B_3413_1_RIGHT_CC.jpg
+0
+cancer_D_4148_1_RIGHT_CC.jpg
+1
+303 660 157 156 1
+cancer_C_0181_1_RIGHT_MLO.jpg
+1
+282 450 129 123 1
+cancer_D_4056_1_RIGHT_MLO.jpg
+0
+benign_B_3365_1_LEFT_CC.jpg
+0
+cancer_D_4148_1_LEFT_CC.jpg
+0
+cancer_B_3412_1_LEFT_CC.jpg
+1
+1 209 186 156 1
+cancer_A_1211_1_RIGHT_MLO.jpg
+0
+cancer_C_0210_1_LEFT_CC.jpg
+1
+199 261 129 115 1
+benign_A_1801_1_LEFT_MLO.jpg
+1
+531 1022 113 87 1
+benign_D_4004_1_RIGHT_CC.jpg
+0
+cancer_A_1182_1_LEFT_CC.jpg
+0
+benign_A_1321_1_LEFT_CC.jpg
+0
+cancer_A_1164_1_LEFT_MLO.jpg
+1
+651 589 44 36 1
+benign_A_1739_1_LEFT_CC.jpg
+0
+cancer_A_1255_1_LEFT_CC.jpg
+0
+cancer_A_1112_1_RIGHT_CC.jpg
+0
+cancer_A_1520_1_RIGHT_MLO.jpg
+1
+240 626 72 91 1
+benign_B_3186_1_LEFT_MLO.jpg
+1
+108 149 39 48 1
+cancer_A_1511_1_RIGHT_CC.jpg
+1
+302 710 119 116 1
+benign_A_1799_1_RIGHT_CC.jpg
+0
+benign_C_0478_1_LEFT_CC.jpg
+0
+benign_C_0380_1_RIGHT_MLO.jpg
+0
+cancer_A_1089_1_RIGHT_CC.jpg
+0
+cancer_B_3027_1_LEFT_CC.jpg
+2
+133 418 243 275 1
+372 575 44 76 1
+cancer_A_1558_1_RIGHT_CC.jpg
+0
+cancer_A_1080_1_LEFT_MLO.jpg
+0
+cancer_A_1247_1_LEFT_MLO.jpg
+1
+397 624 255 169 1
+cancer_B_3047_1_RIGHT_MLO.jpg
+0
+cancer_A_1102_1_RIGHT_CC.jpg
+0
+cancer_B_3069_1_RIGHT_MLO.jpg
+1
+457 225 50 60 1
+cancer_C_0070_1_LEFT_CC.jpg
+1
+28 511 149 162 1
+cancer_B_3373_1_RIGHT_CC.jpg
+1
+321 596 55 73 1
+benign_B_3143_1_LEFT_CC.jpg
+1
+109 543 36 36 1
+cancer_C_0226_1_LEFT_MLO.jpg
+0
+benign_A_1321_1_RIGHT_MLO.jpg
+1
+6 641 111 112 1
+cancer_B_3069_1_RIGHT_CC.jpg
+1
+365 460 78 90 1
+cancer_B_3375_1_LEFT_MLO.jpg
+0
+benign_C_0245_1_RIGHT_MLO.jpg
+1
+281 404 84 98 1
+benign_A_1884_1_LEFT_MLO.jpg
+1
+271 557 63 76 1
+benign_B_3151_1_RIGHT_CC.jpg
+0
+cancer_C_0174_1_RIGHT_CC.jpg
+3
+281 450 92 124 1
+322 588 91 87 1
+409 748 95 105 1
+benign_A_1948_1_RIGHT_MLO.jpg
+0
+cancer_C_0180_1_RIGHT_MLO.jpg
+0
+benign_C_0317_1_RIGHT_CC.jpg
+1
+330 458 60 63 1
+cancer_C_0019_1_RIGHT_MLO.jpg
+1
+162 237 423 540 1
+benign_D_4086_1_RIGHT_MLO.jpg
+0
+cancer_A_1261_1_LEFT_MLO.jpg
+0
+cancer_C_0085_1_LEFT_CC.jpg
+0
+benign_A_1542_1_LEFT_MLO.jpg
+0
+cancer_A_1772_1_LEFT_CC.jpg
+1
+596 617 63 62 1
+benign_D_4047_1_RIGHT_MLO.jpg
+0
+benign_B_3483_1_RIGHT_MLO.jpg
+1
+303 357 87 52 1
+cancer_A_1402_1_RIGHT_MLO.jpg
+1
+147 496 106 87 1
+benign_B_3102_1_RIGHT_CC.jpg
+1
+353 476 40 42 1
+benign_A_1805_1_RIGHT_MLO.jpg
+0
+cancer_A_1985_1_LEFT_CC.jpg
+0
+cancer_C_0340_1_RIGHT_MLO.jpg
+1
+503 247 129 154 1
+benign_A_1765_1_LEFT_MLO.jpg
+0
+benign_C_0401_1_RIGHT_CC.jpg
+0
+cancer_A_1849_1_RIGHT_MLO.jpg
+0
+cancer_B_3394_1_RIGHT_CC.jpg
+1
+492 273 49 21 1
+benign_A_1518_1_LEFT_MLO.jpg
+1
+423 939 38 47 1
+cancer_B_3048_1_LEFT_MLO.jpg
+1
+138 263 207 250 1
+benign_A_1948_1_LEFT_MLO.jpg
+1
+351 787 66 46 1
+cancer_A_1403_1_RIGHT_MLO.jpg
+1
+219 513 89 113 1
+cancer_B_3062_1_LEFT_MLO.jpg
+1
+61 690 60 67 1
+benign_B_3491_1_RIGHT_CC.jpg
+1
+396 303 81 52 1
+benign_A_1943_1_LEFT_CC.jpg
+0
+cancer_A_1622_1_RIGHT_CC.jpg
+1
+193 1014 33 26 1
+cancer_B_3375_1_RIGHT_CC.jpg
+1
+434 452 161 127 1
+benign_A_1335_1_RIGHT_MLO.jpg
+0
+benign_A_1771_1_RIGHT_MLO.jpg
+1
+78 827 132 94 1
+cancer_B_3087_1_RIGHT_MLO.jpg
+1
+338 365 131 112 1
+benign_B_3154_1_LEFT_CC.jpg
+1
+359 738 36 33 1
+benign_A_1784_1_RIGHT_MLO.jpg
+0
+cancer_A_1534_1_LEFT_MLO.jpg
+1
+339 790 52 51 1
+cancer_C_0146_1_RIGHT_CC.jpg
+0
+cancer_B_3413_1_LEFT_CC.jpg
+0
+benign_A_1545_1_RIGHT_MLO.jpg
+0
+benign_D_4037_1_LEFT_CC.jpg
+0
+cancer_C_0141_1_LEFT_CC.jpg
+1
+1 444 61 170 1
+cancer_A_1261_1_RIGHT_CC.jpg
+1
+231 331 77 48 1
+cancer_C_0205_1_LEFT_CC.jpg
+1
+295 495 111 102 1
+cancer_A_1127_1_LEFT_MLO.jpg
+0
+benign_A_1266_1_RIGHT_MLO.jpg
+0
+benign_D_4058_1_RIGHT_MLO.jpg
+0
+benign_C_0388_1_RIGHT_CC.jpg
+0
+cancer_A_1524_1_LEFT_MLO.jpg
+1
+385 441 60 67 1
+benign_A_1709_1_RIGHT_MLO.jpg
+0
+cancer_C_0161_1_RIGHT_MLO.jpg
+0
+benign_A_1785_1_RIGHT_CC.jpg
+0
+benign_C_0245_1_LEFT_MLO.jpg
+0
+cancer_A_1402_1_RIGHT_CC.jpg
+1
+48 785 100 105 1
+cancer_A_1020_1_RIGHT_MLO.jpg
+0
+benign_A_1737_1_RIGHT_CC.jpg
+1
+225 549 46 31 1
+benign_A_1566_1_RIGHT_CC.jpg
+1
+75 444 113 100 1
+cancer_B_3010_1_RIGHT_MLO.jpg
+2
+492 647 31 34 1
+460 809 41 24 1
+benign_D_4062_1_LEFT_CC.jpg
+0
+cancer_A_1589_1_LEFT_CC.jpg
+1
+624 323 39 38 1
+cancer_A_1190_1_LEFT_MLO.jpg
+1
+497 1019 88 82 1
+cancer_C_0085_1_LEFT_MLO.jpg
+0
+benign_D_4072_1_RIGHT_MLO.jpg
+0
+cancer_C_0114_1_RIGHT_MLO.jpg
+0
+cancer_C_0104_1_LEFT_CC.jpg
+1
+5 554 52 95 1
+cancer_A_1329_1_LEFT_CC.jpg
+1
+758 337 64 46 1
+cancer_B_3391_1_LEFT_CC.jpg
+1
+1 300 90 101 1
+cancer_A_1558_1_LEFT_CC.jpg
+1
+245 538 92 72 1
+cancer_C_0228_1_RIGHT_CC.jpg
+0
+cancer_A_1499_1_LEFT_MLO.jpg
+0
+benign_A_1454_1_LEFT_MLO.jpg
+0
+cancer_A_1182_1_LEFT_MLO.jpg
+0
+cancer_D_4172_1_LEFT_CC.jpg
+0
+cancer_B_3068_1_RIGHT_MLO.jpg
+1
+202 505 70 79 1
+benign_C_0245_1_LEFT_CC.jpg
+0
+cancer_C_0104_1_LEFT_MLO.jpg
+1
+4 607 79 102 1
+benign_A_1785_1_LEFT_CC.jpg
+1
+220 419 155 131 1
+cancer_C_0048_1_LEFT_MLO.jpg
+0
+cancer_B_3394_1_RIGHT_MLO.jpg
+1
+391 356 30 34 1
+cancer_A_1253_1_LEFT_CC.jpg
+1
+303 787 79 64 1
+cancer_A_1404_1_LEFT_MLO.jpg
+1
+343 685 147 234 1
+benign_A_1397_1_LEFT_MLO.jpg
+1
+307 461 158 136 1
+cancer_C_0004_1_LEFT_MLO.jpg
+0
+benign_A_1709_1_LEFT_CC.jpg
+1
+526 519 27 31 1
+benign_B_3156_1_RIGHT_MLO.jpg
+1
+220 386 76 99 1
+cancer_D_4173_1_LEFT_CC.jpg
+1
+78 882 449 263 1
+cancer_A_1190_1_LEFT_CC.jpg
+1
+381 734 66 65 1
+cancer_D_4173_1_RIGHT_MLO.jpg
+0
+benign_B_3186_1_LEFT_CC.jpg
+0
+benign_B_3154_1_RIGHT_MLO.jpg
+0
+cancer_C_0210_1_RIGHT_MLO.jpg
+1
+501 361 68 80 1
+cancer_A_1467_1_RIGHT_MLO.jpg
+1
+582 913 65 60 1
+cancer_B_3379_1_LEFT_MLO.jpg
+0
+cancer_C_0141_1_LEFT_MLO.jpg
+1
+1 474 170 230 1
+benign_D_4027_1_RIGHT_MLO.jpg
+1
+269 489 116 122 1
+benign_D_4018_1_RIGHT_MLO.jpg
+1
+176 572 108 108 1
+benign_D_4029_1_LEFT_MLO.jpg
+0
+benign_C_0286_1_LEFT_CC.jpg
+0
+cancer_A_1727_1_RIGHT_CC.jpg
+1
+368 852 50 56 1
+benign_B_3362_1_LEFT_CC.jpg
+0
+cancer_A_1247_1_RIGHT_MLO.jpg
+0
+cancer_B_3069_1_LEFT_CC.jpg
+0
+benign_D_4094_1_RIGHT_MLO.jpg
+1
+269 571 119 123 1
+cancer_B_3087_1_RIGHT_CC.jpg
+1
+577 274 136 86 1
+benign_B_3156_1_LEFT_MLO.jpg
+0
+benign_B_3491_1_RIGHT_MLO.jpg
+1
+420 570 79 49 1
+benign_B_3491_1_LEFT_CC.jpg
+0
+cancer_C_0210_1_RIGHT_CC.jpg
+1
+495 42 82 83 1
+benign_C_0393_1_RIGHT_CC.jpg
+0
+benign_C_0404_1_LEFT_MLO.jpg
+0
+cancer_C_0174_1_LEFT_MLO.jpg
+0
+benign_A_1421_1_RIGHT_CC.jpg
+1
+349 398 82 65 1
+cancer_C_0164_1_LEFT_MLO.jpg
+1
+268 543 95 94 1
+cancer_B_3391_1_RIGHT_CC.jpg
+1
+285 709 33 32 1
+benign_C_0279_1_LEFT_MLO.jpg
+0
+benign_A_1982_1_LEFT_MLO.jpg
+1
+118 589 100 119 1
+cancer_A_1127_1_RIGHT_MLO.jpg
+1
+346 464 143 189 1
+cancer_C_0208_1_LEFT_CC.jpg
+0
+cancer_A_1403_1_RIGHT_CC.jpg
+1
+65 554 73 93 1
+benign_C_0274_1_LEFT_MLO.jpg
+1
+154 269 89 112 1
+cancer_A_1727_1_LEFT_CC.jpg
+0
+cancer_A_1417_1_LEFT_CC.jpg
+0
+cancer_A_1045_1_RIGHT_CC.jpg
+0
+cancer_A_1404_1_RIGHT_CC.jpg
+0
+benign_C_0279_1_LEFT_CC.jpg
+0
+benign_D_4026_1_LEFT_MLO.jpg
+1
+39 577 103 118 1
+cancer_A_1539_1_RIGHT_CC.jpg
+1
+406 934 100 109 1
+benign_A_1266_1_LEFT_MLO.jpg
+1
+595 599 113 97 1
+cancer_B_3413_1_RIGHT_MLO.jpg
+0
+cancer_A_1772_1_LEFT_MLO.jpg
+1
+579 851 64 52 1
+benign_A_1784_1_RIGHT_CC.jpg
+0
+cancer_B_3047_1_RIGHT_CC.jpg
+0
+cancer_A_1243_1_LEFT_CC.jpg
+1
+306 635 146 118 1
+cancer_A_1558_1_LEFT_MLO.jpg
+1
+289 552 95 50 1
+cancer_A_1694_1_RIGHT_CC.jpg
+0
+cancer_C_0080_1_RIGHT_CC.jpg
+0
+benign_A_1500_1_LEFT_MLO.jpg
+1
+580 627 66 55 1
+benign_A_1799_1_RIGHT_MLO.jpg
+0
+cancer_A_1243_1_LEFT_MLO.jpg
+1
+336 707 152 137 1
+benign_D_4094_1_RIGHT_CC.jpg
+1
+285 281 112 122 1
+benign_A_1805_1_LEFT_MLO.jpg
+1
+415 347 46 54 1
+benign_C_0478_1_LEFT_MLO.jpg
+0
+benign_C_0364_1_LEFT_MLO.jpg
+4
+111 229 58 54 1
+31 487 116 92 1
+209 530 82 76 1
+42 637 70 75 1
+cancer_B_3412_1_RIGHT_CC.jpg
+0
+benign_A_1423_1_LEFT_CC.jpg
+1
+263 469 63 48 1
+cancer_A_1403_1_LEFT_CC.jpg
+0
+cancer_C_0174_1_LEFT_CC.jpg
+0
+benign_A_1710_1_LEFT_MLO.jpg
+1
+274 718 138 127 1
+cancer_C_0174_1_RIGHT_MLO.jpg
+3
+281 809 87 95 1
+380 826 90 97 1
+509 828 102 97 1
+cancer_A_1082_1_LEFT_MLO.jpg
+0
+benign_A_1335_1_LEFT_CC.jpg
+1
+431 749 42 47 1
+cancer_C_0038_1_LEFT_CC.jpg
+1
+90 549 206 172 1
+benign_D_4064_1_RIGHT_MLO.jpg
+1
+385 746 178 129 1
+benign_A_1886_1_RIGHT_CC.jpg
+1
+206 512 100 81 1
+cancer_B_3373_1_RIGHT_MLO.jpg
+1
+276 597 81 67 1
+benign_A_1784_1_LEFT_CC.jpg
+1
+442 790 47 62 1
+cancer_A_1237_1_LEFT_MLO.jpg
+1
+263 385 147 132 1
+cancer_D_4087_1_RIGHT_MLO.jpg
+1
+345 569 84 88 1
+cancer_A_1904_1_LEFT_MLO.jpg
+0
+cancer_C_0038_1_LEFT_MLO.jpg
+2
+271 509 145 140 1
+177 639 93 87 1
+cancer_B_3010_1_LEFT_MLO.jpg
+0
+cancer_C_0075_1_RIGHT_MLO.jpg
+0
+benign_A_1767_1_RIGHT_MLO.jpg
+1
+443 597 60 58 1
+benign_A_1715_1_LEFT_CC.jpg
+0
+benign_C_0273_1_LEFT_MLO.jpg
+1
+237 625 137 186 1
+cancer_C_0038_1_RIGHT_CC.jpg
+0
+cancer_C_0075_1_LEFT_MLO.jpg
+1
+47 509 214 185 1
+cancer_B_3391_1_LEFT_MLO.jpg
+1
+185 341 114 96 1
+cancer_D_4108_1_LEFT_MLO.jpg
+1
+12 565 127 165 1
+cancer_B_3048_1_RIGHT_MLO.jpg
+1
+290 265 81 103 1
+cancer_C_0048_1_LEFT_CC.jpg
+0
+cancer_C_0195_1_LEFT_CC.jpg
+0
+benign_A_1408_1_RIGHT_MLO.jpg
+0
+benign_A_1858_1_LEFT_CC.jpg
+0
+benign_A_1397_1_LEFT_CC.jpg
+1
+450 518 108 140 1
+benign_A_1542_1_RIGHT_CC.jpg
+1
+491 1005 78 79 1
+cancer_A_1417_1_LEFT_MLO.jpg
+0
+cancer_C_0085_1_RIGHT_CC.jpg
+1
+415 357 159 147 1
+cancer_A_1534_1_RIGHT_MLO.jpg
+0
+cancer_B_3398_1_RIGHT_MLO.jpg
+1
+269 525 51 83 1
+benign_B_3365_1_RIGHT_CC.jpg
+1
+269 652 80 60 1
+cancer_A_1010_1_LEFT_MLO.jpg
+0
+benign_D_4026_1_RIGHT_CC.jpg
+0
+cancer_A_1402_1_LEFT_MLO.jpg
+0
+cancer_A_1904_1_LEFT_CC.jpg
+0
+cancer_A_1127_1_LEFT_CC.jpg
+0
+cancer_C_0215_1_LEFT_MLO.jpg
+1
+1 703 124 138 1
+cancer_B_3508_1_LEFT_CC.jpg
+1
+98 465 44 92 1
+benign_A_1886_1_LEFT_CC.jpg
+0
+benign_A_1739_1_RIGHT_CC.jpg
+1
+275 760 66 38 1
+benign_A_1777_1_RIGHT_CC.jpg
+0
+benign_C_0387_1_LEFT_MLO.jpg
+0
+benign_A_1634_1_LEFT_MLO.jpg
+1
+611 917 42 31 1
+benign_B_3123_1_LEFT_MLO.jpg
+1
+149 460 102 89 1
+cancer_A_1147_1_LEFT_MLO.jpg
+1
+431 728 63 61 1
+cancer_B_3075_1_RIGHT_MLO.jpg
+1
+303 562 167 119 1
+benign_A_1177_1_LEFT_MLO.jpg
+0
+benign_C_0305_1_RIGHT_CC.jpg
+1
+541 527 132 127 1
+benign_A_1842_1_LEFT_CC.jpg
+1
+404 805 73 97 1
+cancer_B_3373_1_LEFT_CC.jpg
+0
+cancer_B_3075_1_RIGHT_CC.jpg
+1
+295 354 172 126 1
+cancer_C_0114_1_RIGHT_CC.jpg
+0
+cancer_D_4172_1_RIGHT_MLO.jpg
+1
+273 565 192 161 1
+cancer_A_1329_1_LEFT_MLO.jpg
+1
+707 619 71 50 1
+benign_B_3143_1_RIGHT_MLO.jpg
+0
+benign_A_1771_1_LEFT_MLO.jpg
+0
+benign_A_1454_1_RIGHT_CC.jpg
+0
+benign_A_1709_1_RIGHT_CC.jpg
+0
+cancer_B_3503_1_RIGHT_CC.jpg
+0
+cancer_A_1224_1_LEFT_CC.jpg
+1
+228 395 149 170 1
+benign_A_1948_1_LEFT_CC.jpg
+1
+292 486 68 62 1
+benign_A_1943_1_RIGHT_CC.jpg
+1
+75 656 41 29 1
+benign_C_0404_1_LEFT_CC.jpg
+0
+benign_A_1943_1_RIGHT_MLO.jpg
+1
+73 841 46 36 1
+benign_A_1500_1_RIGHT_CC.jpg
+0
+benign_B_3151_1_LEFT_CC.jpg
+1
+26 501 46 43 1
+cancer_A_1499_1_RIGHT_CC.jpg
+1
+336 833 44 38 1
+cancer_B_3398_1_RIGHT_CC.jpg
+1
+261 298 72 65 1
+benign_A_1811_1_RIGHT_CC.jpg
+0
+cancer_A_1164_1_RIGHT_CC.jpg
+0
+benign_D_4064_1_LEFT_CC.jpg
+0
+benign_C_0274_1_RIGHT_MLO.jpg
+0
+benign_D_4058_1_LEFT_CC.jpg
+1
+17 375 154 155 1
+cancer_D_4101_1_RIGHT_CC.jpg
+0
+benign_D_4094_1_LEFT_MLO.jpg
+0
+benign_C_0282_1_RIGHT_MLO.jpg
+0
+cancer_C_0226_1_RIGHT_CC.jpg
+1
+409 439 116 110 1
+cancer_C_0161_1_LEFT_CC.jpg
+1
+98 607 83 79 1
+cancer_C_0205_1_RIGHT_CC.jpg
+0
+cancer_C_0048_1_RIGHT_MLO.jpg
+1
+396 4 122 141 1
+benign_A_1982_1_RIGHT_CC.jpg
+0
+cancer_A_1224_1_LEFT_MLO.jpg
+1
+235 477 132 125 1
+cancer_A_1215_1_RIGHT_CC.jpg
+0
+cancer_C_0077_1_LEFT_MLO.jpg
+0
+cancer_A_1093_1_RIGHT_MLO.jpg
+1
+376 610 33 37 1
+cancer_A_1109_1_RIGHT_MLO.jpg
+0
+benign_D_4037_1_RIGHT_MLO.jpg
+1
+236 406 248 194 1
+cancer_B_3069_1_LEFT_MLO.jpg
+0
+benign_A_1739_1_RIGHT_MLO.jpg
+1
+155 1093 55 28 1
+benign_A_1335_1_LEFT_MLO.jpg
+1
+393 838 54 43 1
+benign_C_0282_1_LEFT_MLO.jpg
+1
+236 591 114 127 1
+cancer_A_1589_1_RIGHT_MLO.jpg
+0
+benign_B_3143_1_RIGHT_CC.jpg
+0
+cancer_A_1524_1_RIGHT_CC.jpg
+0
+benign_B_3156_1_LEFT_CC.jpg
+0
+cancer_A_1139_1_LEFT_CC.jpg
+1
+515 536 81 45 1
+cancer_C_0161_1_LEFT_MLO.jpg
+1
+52 657 113 100 1
+cancer_C_0191_1_RIGHT_CC.jpg
+0
+cancer_C_0164_1_RIGHT_CC.jpg
+0
+cancer_B_3087_1_LEFT_CC.jpg
+0
+benign_A_1812_1_RIGHT_MLO.jpg
+0
+benign_C_0286_1_LEFT_MLO.jpg
+0
+cancer_A_1511_1_LEFT_MLO.jpg
+0
+cancer_C_0077_1_RIGHT_CC.jpg
+1
+415 149 95 140 1
+cancer_B_3027_1_RIGHT_MLO.jpg
+0
+cancer_A_1520_1_LEFT_CC.jpg
+0
+cancer_C_0019_1_LEFT_MLO.jpg
+1
+161 465 98 85 1
+cancer_A_1093_1_RIGHT_CC.jpg
+1
+312 544 49 45 1
+benign_C_0273_1_RIGHT_MLO.jpg
+0
+cancer_A_1082_1_RIGHT_CC.jpg
+1
+183 520 67 57 1
+benign_A_1737_1_LEFT_MLO.jpg
+0
+cancer_A_1511_1_LEFT_CC.jpg
+0
+cancer_A_1904_1_RIGHT_MLO.jpg
+1
+301 369 31 33 1
+benign_A_1396_1_LEFT_MLO.jpg
+1
+283 459 134 138 1
+benign_D_4086_1_LEFT_MLO.jpg
+1
+447 880 121 120 1
+cancer_B_3085_1_RIGHT_CC.jpg
+0
+benign_D_4039_1_LEFT_CC.jpg
+1
+359 347 89 94 1
+benign_C_0401_1_LEFT_MLO.jpg
+1
+311 671 143 186 1
+benign_D_4004_1_LEFT_MLO.jpg
+1
+177 728 114 115 1
+cancer_A_1694_1_LEFT_CC.jpg
+0
+benign_A_1710_1_RIGHT_MLO.jpg
+0
+cancer_C_0077_1_RIGHT_MLO.jpg
+1
+346 103 135 159 1
+cancer_A_1187_1_RIGHT_CC.jpg
+1
+332 617 88 93 1
+cancer_B_3062_1_RIGHT_CC.jpg
+0
+cancer_D_4087_1_RIGHT_CC.jpg
+1
+338 656 84 98 1
+cancer_A_1534_1_RIGHT_CC.jpg
+0
+cancer_D_4034_1_LEFT_CC.jpg
+1
+219 597 114 134 1
+benign_C_0324_1_LEFT_CC.jpg
+1
+13 346 190 284 1
+cancer_A_1045_1_LEFT_CC.jpg
+1
+362 463 29 38 1
+cancer_A_1212_1_LEFT_MLO.jpg
+1
+303 704 92 122 1
+benign_C_0401_1_LEFT_CC.jpg
+1
+257 701 175 169 1
+cancer_C_0070_1_RIGHT_CC.jpg
+0
+cancer_D_4108_1_LEFT_CC.jpg
+1
+13 543 110 194 1
+benign_C_0324_1_LEFT_MLO.jpg
+1
+47 425 202 266 1
+cancer_A_1534_1_LEFT_CC.jpg
+1
+268 595 58 54 1
+cancer_A_1187_1_LEFT_CC.jpg
+0
+benign_D_4026_1_LEFT_CC.jpg
+1
+67 332 100 99 1
+cancer_D_4087_1_LEFT_MLO.jpg
+0
+cancer_A_1247_1_LEFT_CC.jpg
+1
+457 201 233 179 1
+cancer_C_0108_1_RIGHT_CC.jpg
+0
+cancer_A_1187_1_LEFT_MLO.jpg
+0
+benign_C_0337_1_LEFT_MLO.jpg
+2
+7 132 74 79 1
+1 306 88 89 1
+benign_D_4039_1_RIGHT_MLO.jpg
+0
+benign_D_4062_1_LEFT_MLO.jpg
+0
+benign_C_0507_1_RIGHT_CC.jpg
+1
+506 431 79 87 1
+cancer_A_1694_1_LEFT_MLO.jpg
+0
+cancer_C_0191_1_LEFT_CC.jpg
+2
+1 217 112 148 1
+28 361 233 229 1
+benign_A_1542_1_LEFT_CC.jpg
+0
+cancer_C_0139_1_RIGHT_CC.jpg
+0
+cancer_C_0075_1_RIGHT_CC.jpg
+0
+cancer_A_1823_1_LEFT_CC.jpg
+0
+cancer_A_1045_1_LEFT_MLO.jpg
+1
+300 835 87 56 1
+cancer_C_0228_1_LEFT_CC.jpg
+1
+1 164 66 164 1
+benign_A_1715_1_RIGHT_MLO.jpg
+1
+25 835 32 41 1
+cancer_C_0215_1_RIGHT_CC.jpg
+0
+cancer_B_3087_1_LEFT_MLO.jpg
+0
+benign_C_0279_1_RIGHT_MLO.jpg
+1
+437 247 155 182 1
+cancer_C_0083_1_LEFT_MLO.jpg
+1
+1 1 263 591 1
+cancer_B_3068_1_RIGHT_CC.jpg
+1
+373 303 54 57 1
+benign_C_0286_1_RIGHT_CC.jpg
+1
+210 570 86 108 1
+benign_C_0305_1_RIGHT_MLO.jpg
+1
+468 610 132 110 1
+benign_A_1767_1_LEFT_MLO.jpg
+0
+benign_A_1471_1_LEFT_MLO.jpg
+0
+cancer_C_0052_1_LEFT_CC.jpg
+0
+benign_D_4037_1_RIGHT_CC.jpg
+1
+289 183 204 174 1
+cancer_C_0070_1_RIGHT_MLO.jpg
+0
+cancer_C_0092_1_RIGHT_CC.jpg
+1
+378 345 143 173 1
+cancer_A_1164_1_RIGHT_MLO.jpg
+0
+cancer_A_1329_1_RIGHT_MLO.jpg
+0
+cancer_B_3508_1_RIGHT_MLO.jpg
+1
+407 439 113 97 1
+cancer_A_1112_1_LEFT_CC.jpg
+1
+317 644 54 64 1
+cancer_C_0181_1_RIGHT_CC.jpg
+1
+314 581 127 121 1
+benign_C_0393_1_LEFT_CC.jpg
+0
+cancer_A_1190_1_RIGHT_CC.jpg
+0
+cancer_C_0159_1_LEFT_CC.jpg
+0
+cancer_A_1417_1_RIGHT_CC.jpg
+0
+benign_A_1599_1_RIGHT_CC.jpg
+1
+11 241 242 229 1
+benign_D_4004_1_LEFT_CC.jpg
+1
+238 567 112 100 1
+benign_A_1884_1_RIGHT_CC.jpg
+0
+cancer_A_1045_1_RIGHT_MLO.jpg
+0
+cancer_C_0114_1_LEFT_MLO.jpg
+1
+162 324 81 89 1
+benign_A_1781_1_RIGHT_CC.jpg
+1
+123 720 79 73 1
+benign_C_0235_1_LEFT_MLO.jpg
+0
+cancer_A_1539_1_RIGHT_MLO.jpg
+1
+427 1065 98 121 1
+benign_A_1767_1_LEFT_CC.jpg
+0
+cancer_C_0181_1_LEFT_CC.jpg
+0
+cancer_D_4087_1_LEFT_CC.jpg
+0
+benign_B_3123_1_RIGHT_MLO.jpg
+0
+benign_B_3186_1_right_CC.jpg
+0
+cancer_C_0204_1_LEFT_CC.jpg
+1
+215 681 151 173 1
+benign_C_0378_1_RIGHT_MLO.jpg
+0
+benign_A_1886_1_RIGHT_MLO.jpg
+1
+376 389 66 92 1
+cancer_A_1823_1_RIGHT_MLO.jpg
+1
+186 350 120 106 1
+cancer_A_1164_1_LEFT_CC.jpg
+1
+671 443 64 52 1
+cancer_B_3027_1_LEFT_MLO.jpg
+1
+183 453 268 315 1
+cancer_A_1182_1_RIGHT_MLO.jpg
+1
+253 370 173 109 1
+cancer_B_3412_1_RIGHT_MLO.jpg
+0
+benign_A_1811_1_LEFT_MLO.jpg
+1
+313 779 76 55 1
+benign_A_1423_1_LEFT_MLO.jpg
+1
+366 822 55 43 1
+cancer_A_1082_1_LEFT_CC.jpg
+0
+benign_A_1323_1_LEFT_CC.jpg
+1
+368 421 100 103 1
+benign_A_1545_1_LEFT_CC.jpg
+1
+317 507 34 28 1
+benign_A_1880_1_RIGHT_CC.jpg
+0
+cancer_A_1080_1_LEFT_CC.jpg
+0
+benign_D_4066_1_RIGHT_MLO.jpg
+1
+243 398 150 142 1
+benign_A_1634_1_RIGHT_MLO.jpg
+0
+cancer_C_0471_1_LEFT_CC.jpg
+0
+cancer_C_0195_1_RIGHT_MLO.jpg
+2
+474 1 111 124 1
+282 212 163 263 1
+cancer_B_3062_1_RIGHT_MLO.jpg
+0
+cancer_C_0192_1_LEFT_CC.jpg
+0
+benign_C_0507_1_LEFT_MLO.jpg
+1
+20 561 113 63 1
+benign_B_3483_1_RIGHT_CC.jpg
+1
+457 221 66 51 1
+benign_B_3490_1_LEFT_MLO.jpg
+0
+benign_C_0478_1_RIGHT_MLO.jpg
+1
+373 786 97 126 1
+benign_C_0245_1_RIGHT_CC.jpg
+1
+361 252 106 113 1
+benign_A_1323_1_RIGHT_CC.jpg
+0
+benign_A_1321_1_RIGHT_CC.jpg
+1
+6 480 71 64 1
+cancer_A_1403_1_LEFT_MLO.jpg
+0
+cancer_C_0019_1_LEFT_CC.jpg
+1
+34 257 108 88 1
+benign_A_1471_1_RIGHT_CC.jpg
+1
+233 899 121 111 1
+benign_B_3102_1_LEFT_CC.jpg
+1
+373 829 65 76 1
+benign_D_4018_1_LEFT_CC.jpg
+0
+benign_C_0364_1_RIGHT_MLO.jpg
+1
+754 377 31 58 1
+benign_C_0387_1_RIGHT_MLO.jpg
+1
+437 818 96 97 1
+benign_A_1471_1_LEFT_CC.jpg
+0
+benign_A_1323_1_RIGHT_MLO.jpg
+0
+benign_C_0380_1_LEFT_CC.jpg
+1
+149 604 80 84 1
+cancer_A_1080_1_RIGHT_CC.jpg
+1
+289 333 78 45 1
+cancer_C_0180_1_LEFT_MLO.jpg
+1
+119 570 102 87 1
+benign_A_1408_1_LEFT_CC.jpg
+1
+582 259 159 137 1
+cancer_C_0101_1_LEFT_MLO.jpg
+0
+benign_A_1777_1_LEFT_MLO.jpg
+1
+217 523 124 73 1
+cancer_C_0034_1_LEFT_CC.jpg
+0
+cancer_A_1243_1_RIGHT_CC.jpg
+0
+benign_A_1781_1_LEFT_CC.jpg
+0
+cancer_C_0340_1_RIGHT_CC.jpg
+1
+669 244 137 159 1
+cancer_A_1253_1_RIGHT_CC.jpg
+0
+cancer_C_0208_1_LEFT_MLO.jpg
+0
+benign_A_1761_1_RIGHT_MLO.jpg
+0
+cancer_B_3048_1_LEFT_CC.jpg
+1
+4 201 237 199 1
+cancer_D_4125_1_RIGHT_MLO.jpg
+1
+366 327 130 144 1
+cancer_D_4056_1_LEFT_MLO.jpg
+1
+148 581 127 123 1
+benign_D_4018_1_LEFT_MLO.jpg
+0
+cancer_A_1139_1_LEFT_MLO.jpg
+1
+422 786 74 55 1
+cancer_C_0204_1_RIGHT_CC.jpg
+0
+cancer_D_4172_1_LEFT_MLO.jpg
+0
+benign_A_1518_1_RIGHT_CC.jpg
+0
+cancer_A_1182_1_RIGHT_CC.jpg
+1
+134 602 142 121 1
+cancer_A_1089_1_RIGHT_MLO.jpg
+0
+cancer_C_0034_1_RIGHT_MLO.jpg
+1
+217 469 189 187 1
+cancer_A_1089_1_LEFT_MLO.jpg
+1
+205 842 55 59 1
+cancer_A_1060_1_RIGHT_MLO.jpg
+0
+cancer_D_4101_1_RIGHT_MLO.jpg
+0
+benign_A_1454_1_LEFT_CC.jpg
+1
+785 1120 55 52 1
+cancer_C_0159_1_RIGHT_MLO.jpg
+1
+105 388 464 645 1
+cancer_A_1093_1_LEFT_MLO.jpg
+0
+benign_A_1177_1_LEFT_CC.jpg
+0
+benign_A_1884_1_LEFT_CC.jpg
+1
+314 321 49 38 1
+cancer_C_0228_1_RIGHT_MLO.jpg
+0
+cancer_C_0181_1_LEFT_MLO.jpg
+0
+benign_B_3144_1_LEFT_MLO.jpg
+0
+cancer_C_0052_1_RIGHT_MLO.jpg
+0
+cancer_D_4148_1_RIGHT_MLO.jpg
+1
+259 749 157 143 1
+cancer_D_4034_1_RIGHT_CC.jpg
+0
+cancer_A_1499_1_LEFT_CC.jpg
+0
+benign_A_1886_1_LEFT_MLO.jpg
+0
+benign_A_1715_1_RIGHT_CC.jpg
+1
+17 601 28 44 1
+benign_A_1858_1_RIGHT_MLO.jpg
+1
+296 478 79 86 1
+cancer_A_1985_1_RIGHT_CC.jpg
+1
+168 777 22 25 1
+cancer_C_0092_1_LEFT_MLO.jpg
+0
+cancer_A_1112_1_RIGHT_MLO.jpg
+0
+cancer_C_0191_1_RIGHT_MLO.jpg
+0
+cancer_D_4128_1_RIGHT_CC.jpg
+0
+cancer_C_0139_1_LEFT_CC.jpg
+0
+benign_A_1765_1_RIGHT_CC.jpg
+1
+177 341 72 51 1
+cancer_C_0080_1_LEFT_CC.jpg
+1
+1 164 173 220 1
+cancer_C_0004_1_RIGHT_CC.jpg
+1
+449 145 136 146 1
+cancer_B_3085_1_LEFT_MLO.jpg
+1
+45 589 52 72 1
+cancer_A_1212_1_LEFT_CC.jpg
+1
+185 450 168 159 1
+benign_A_1880_1_LEFT_MLO.jpg
+1
+394 529 45 57 1
+cancer_B_3398_1_LEFT_CC.jpg
+0
+cancer_D_4148_1_LEFT_MLO.jpg
+0
+cancer_A_1849_1_LEFT_MLO.jpg
+1
+286 800 25 25 1
+benign_C_0388_1_LEFT_CC.jpg
+1
+10 209 70 72 1
+cancer_A_1329_1_RIGHT_CC.jpg
+0
+cancer_D_4034_1_RIGHT_MLO.jpg
+0
+cancer_C_0104_1_RIGHT_CC.jpg
+1
+410 228 75 87 1
+benign_C_0274_1_LEFT_CC.jpg
+1
+20 415 113 119 1
+cancer_B_3379_1_LEFT_CC.jpg
+0
+cancer_B_3010_1_RIGHT_CC.jpg
+2
+362 604 36 33 1
+423 671 28 33 1
+benign_D_4072_1_LEFT_MLO.jpg
+1
+32 480 88 101 1
+benign_A_1858_1_RIGHT_CC.jpg
+1
+246 390 65 83 1
+benign_C_0274_1_RIGHT_CC.jpg
+0
+cancer_A_1985_1_RIGHT_MLO.jpg
+1
+92 710 52 77 1
+benign_C_0282_1_LEFT_CC.jpg
+1
+197 508 121 97 1
+cancer_C_0019_1_RIGHT_CC.jpg
+1
+132 220 471 433 1
+cancer_C_0101_1_LEFT_CC.jpg
+0
+cancer_C_0101_1_RIGHT_CC.jpg
+1
+409 447 189 196 1
+cancer_A_1127_1_RIGHT_CC.jpg
+1
+270 483 81 71 1
+benign_D_4047_1_LEFT_MLO.jpg
+1
+159 729 97 106 1
+cancer_D_4108_1_RIGHT_MLO.jpg
+0
+cancer_C_0038_1_RIGHT_MLO.jpg
+0
+benign_B_3151_1_RIGHT_MLO.jpg
+0
+cancer_A_1080_1_RIGHT_MLO.jpg
+1
+243 731 105 92 1
+cancer_C_0340_1_LEFT_MLO.jpg
+0
+cancer_A_1020_1_LEFT_CC.jpg
+1
+338 697 60 38 1
+benign_A_1715_1_LEFT_MLO.jpg
+0
+benign_A_1761_1_LEFT_CC.jpg
+1
+259 484 48 49 1
+benign_A_1801_1_RIGHT_CC.jpg
+0
+cancer_A_1109_1_LEFT_CC.jpg
+1
+686 197 71 63 1
+benign_D_4062_1_RIGHT_CC.jpg
+1
+473 288 95 105 1
+cancer_B_3394_1_LEFT_CC.jpg
+0
+cancer_C_0075_1_LEFT_CC.jpg
+1
+15 249 186 167 1
+cancer_C_0164_1_RIGHT_MLO.jpg
+0
+cancer_A_1187_1_RIGHT_MLO.jpg
+1
+498 459 90 111 1
+cancer_C_0052_1_LEFT_MLO.jpg
+0
+benign_D_4086_1_RIGHT_CC.jpg
+0
+cancer_C_0205_1_LEFT_MLO.jpg
+1
+372 881 98 84 1
+benign_A_1811_1_LEFT_CC.jpg
+1
+254 509 82 73 1
+cancer_C_0210_1_LEFT_MLO.jpg
+1
+261 537 107 103 1
+cancer_A_1985_1_LEFT_MLO.jpg
+0
+cancer_B_3083_1_LEFT_MLO.jpg
+0
+cancer_A_1211_1_LEFT_CC.jpg
+1
+430 305 56 51 1
+benign_A_1408_1_LEFT_MLO.jpg
+1
+385 406 148 139 1
+cancer_B_3391_1_RIGHT_MLO.jpg
+1
+289 764 37 33 1
+benign_C_0388_1_RIGHT_MLO.jpg
+0
+benign_C_0235_1_RIGHT_CC.jpg
+1
+372 612 117 106 1
+cancer_C_0004_1_RIGHT_MLO.jpg
+1
+329 201 216 197 1
+cancer_D_4056_1_LEFT_CC.jpg
+1
+141 175 122 114 1
+cancer_C_0146_1_RIGHT_MLO.jpg
+0
+benign_D_4047_1_RIGHT_CC.jpg
+0
+benign_A_1812_1_RIGHT_CC.jpg
+0
+benign_D_4026_1_RIGHT_MLO.jpg
+0
+cancer_C_0471_1_LEFT_MLO.jpg
+0
+benign_D_4094_1_LEFT_CC.jpg
+0
+cancer_A_1020_1_RIGHT_CC.jpg
+0
+benign_A_1805_1_LEFT_CC.jpg
+1
+608 293 44 39 1
+cancer_B_3068_1_LEFT_MLO.jpg
+0
+cancer_B_3010_1_LEFT_CC.jpg
+0
+cancer_A_1211_1_LEFT_MLO.jpg
+1
+316 446 54 86 1
+cancer_A_1009_1_RIGHT_CC.jpg
+1
+160 797 23 19 1
+benign_B_3186_1_right_MLO.jpg
+0
+benign_C_0378_1_LEFT_MLO.jpg
+1
+47 557 103 118 1
+benign_A_1799_1_LEFT_CC.jpg
+1
+325 686 44 39 1
+benign_A_1396_1_LEFT_CC.jpg
+1
+268 379 174 167 1
+cancer_A_1255_1_LEFT_MLO.jpg
+0
+benign_D_4037_1_LEFT_MLO.jpg
+0
+cancer_A_1255_1_RIGHT_CC.jpg
+1
+352 777 42 42 1
+cancer_A_1849_1_RIGHT_CC.jpg
+0
+benign_A_1518_1_LEFT_CC.jpg
+1
+368 598 35 51 1
+cancer_A_1261_1_RIGHT_MLO.jpg
+1
+319 651 72 50 1
+benign_A_1761_1_RIGHT_CC.jpg
+0
+benign_C_0380_1_LEFT_MLO.jpg
+1
+265 537 92 103 1
+benign_B_3356_1_RIGHT_CC.jpg
+1
+362 530 35 35 1
+benign_A_1414_1_RIGHT_MLO.jpg
+1
+185 1056 112 122 1
+cancer_A_1212_1_RIGHT_CC.jpg
+0
+cancer_A_1089_1_LEFT_CC.jpg
+1
+198 579 52 52 1
+benign_C_0507_1_LEFT_CC.jpg
+1
+45 577 107 84 1
+cancer_C_0195_1_LEFT_MLO.jpg
+0
+cancer_B_3062_1_LEFT_CC.jpg
+1
+37 436 76 82 1
+cancer_C_0226_1_LEFT_CC.jpg
+0
+cancer_A_1139_1_RIGHT_MLO.jpg
+0
+cancer_A_1060_1_LEFT_MLO.jpg
+1
+279 1036 59 65 1
+benign_A_1982_1_RIGHT_MLO.jpg
+0
+cancer_C_0048_1_RIGHT_CC.jpg
+0
+cancer_D_4173_1_RIGHT_CC.jpg
+0
+benign_A_1777_1_RIGHT_MLO.jpg
+0
+benign_A_1566_1_LEFT_MLO.jpg
+0
+cancer_C_0195_1_RIGHT_CC.jpg
+1
+385 217 144 240 1
+benign_A_1500_1_RIGHT_MLO.jpg
+0
+cancer_C_0471_1_RIGHT_CC.jpg
+1
+609 381 200 256 1
+benign_C_0282_1_RIGHT_CC.jpg
+0
+benign_D_4066_1_LEFT_MLO.jpg
+0
+benign_A_1777_1_LEFT_CC.jpg
+1
+330 330 98 79 1
+cancer_A_1190_1_RIGHT_MLO.jpg
+0
+cancer_B_3503_1_LEFT_MLO.jpg
+1
+95 711 71 66 1
+benign_B_3102_1_LEFT_MLO.jpg
+1
+239 780 60 61 1
+benign_D_4058_1_RIGHT_CC.jpg
+0
+benign_B_3143_1_LEFT_MLO.jpg
+1
+165 511 32 34 1
+cancer_B_3047_1_LEFT_CC.jpg
+1
+266 389 119 113 1
+cancer_C_0205_1_RIGHT_MLO.jpg
+0
+cancer_A_1727_1_LEFT_MLO.jpg
+0
+cancer_A_1253_1_LEFT_MLO.jpg
+1
+281 755 79 93 1
+cancer_B_3375_1_RIGHT_MLO.jpg
+1
+455 689 135 85 1
+cancer_A_1010_1_RIGHT_CC.jpg
+1
+274 517 29 38 1
+cancer_B_3061_1_LEFT_CC.jpg
+0
+benign_D_4072_1_LEFT_CC.jpg
+1
+23 300 105 127 1
+benign_C_0387_1_RIGHT_CC.jpg
+1
+511 468 92 85 1
+cancer_A_1009_1_RIGHT_MLO.jpg
+1
+168 769 45 26 1
+cancer_A_1010_1_RIGHT_MLO.jpg
+1
+462 651 41 46 1
+cancer_C_0146_1_LEFT_MLO.jpg
+3
+1 146 50 115 1
+1 477 135 174 1
+225 650 191 175 1
+benign_A_1805_1_RIGHT_CC.jpg
+0
+benign_A_1264_1_RIGHT_MLO.jpg
+1
+202 838 58 31 1
+benign_A_1471_1_RIGHT_MLO.jpg
+1
+193 966 132 115 1
+cancer_A_1622_1_LEFT_CC.jpg
+1
+515 825 76 75 1
+benign_A_1801_1_LEFT_CC.jpg
+1
+396 918 128 94 1
+cancer_C_0471_1_RIGHT_MLO.jpg
+1
+477 485 249 284 1
+cancer_A_1255_1_RIGHT_MLO.jpg
+1
+373 899 48 34 1
+cancer_A_1112_1_LEFT_MLO.jpg
+1
+379 423 63 68 1
+benign_B_3362_1_RIGHT_CC.jpg
+1
+314 397 49 51 1
+cancer_B_3503_1_RIGHT_MLO.jpg
+0
+cancer_A_1102_1_RIGHT_MLO.jpg
+0
+cancer_A_1904_1_RIGHT_CC.jpg
+1
+102 353 36 38 1
+benign_C_0235_1_RIGHT_MLO.jpg
+1
+325 700 111 95 1
+cancer_B_3441_1_RIGHT_MLO.jpg
+1
+365 485 145 144 1
+cancer_A_1727_1_RIGHT_MLO.jpg
+1
+283 979 55 66 1
+cancer_B_3067_1_LEFT_CC.jpg
+0
+cancer_A_1215_1_LEFT_CC.jpg
+1
+278 430 216 155 1
+cancer_A_1622_1_RIGHT_MLO.jpg
+1
+91 910 34 27 1
+cancer_A_1020_1_LEFT_MLO.jpg
+1
+369 920 58 38 1
+benign_A_1739_1_LEFT_MLO.jpg
+0
+benign_A_1765_1_RIGHT_MLO.jpg
+1
+349 588 69 61 1
+benign_B_3151_1_LEFT_MLO.jpg
+1
+69 521 36 32 1
+cancer_C_0104_1_RIGHT_MLO.jpg
+1
+316 369 85 101 1
+benign_C_0273_1_RIGHT_CC.jpg
+0
+benign_B_3362_1_LEFT_MLO.jpg
+0
+benign_A_1266_1_RIGHT_CC.jpg
+0
+benign_A_1737_1_RIGHT_MLO.jpg
+1
+270 689 35 38 1
+benign_B_3362_1_RIGHT_MLO.jpg
+1
+324 717 44 46 1
+cancer_C_0226_1_RIGHT_MLO.jpg
+1
+404 573 95 108 1
+benign_A_1599_1_RIGHT_MLO.jpg
+1
+93 323 276 238 1
+benign_D_4047_1_LEFT_CC.jpg
+1
+193 355 94 106 1
+benign_A_1566_1_LEFT_CC.jpg
+0
+cancer_D_4108_1_RIGHT_CC.jpg
+0
+cancer_B_3503_1_LEFT_CC.jpg
+1
+100 594 58 75 1
+cancer_C_0077_1_LEFT_CC.jpg
+0
+cancer_A_1520_1_RIGHT_CC.jpg
+1
+206 423 93 102 1
+cancer_A_1082_1_RIGHT_MLO.jpg
+1
+161 945 77 82 1
+cancer_C_0192_1_RIGHT_MLO.jpg
+1
+249 506 92 100 1
+cancer_C_0004_1_LEFT_CC.jpg
+0
+benign_A_1566_1_RIGHT_MLO.jpg
+1
+139 606 137 89 1
+benign_C_0312_1_RIGHT_MLO.jpg
+0
+cancer_D_4125_1_LEFT_CC.jpg
+1
+19 313 156 163 1
+cancer_D_4125_1_LEFT_MLO.jpg
+1
+143 583 152 157 1
+benign_A_1321_1_LEFT_MLO.jpg
+0
+cancer_A_1253_1_RIGHT_MLO.jpg
+0
+cancer_B_3075_1_LEFT_CC.jpg
+0
+benign_A_1266_1_LEFT_CC.jpg
+1
+517 446 117 78 1
+cancer_C_0159_1_LEFT_MLO.jpg
+0
+benign_B_3365_1_LEFT_MLO.jpg
+0
+cancer_A_1224_1_RIGHT_CC.jpg
+0
+cancer_C_0164_1_LEFT_CC.jpg
+1
+234 306 126 111 1
+cancer_B_3375_1_LEFT_CC.jpg
+0
+benign_C_0387_1_LEFT_CC.jpg
+0
+cancer_A_1772_1_RIGHT_MLO.jpg
+0
+benign_D_4064_1_LEFT_MLO.jpg
+0
+benign_A_1799_1_LEFT_MLO.jpg
+1
+421 830 47 43 1
+cancer_C_0092_1_RIGHT_MLO.jpg
+1
+290 311 159 183 1
+benign_A_1414_1_LEFT_MLO.jpg
+0
+cancer_B_3379_1_RIGHT_CC.jpg
+1
+356 602 69 52 1
+cancer_A_1524_1_LEFT_CC.jpg
+1
+481 257 61 54 1
+benign_C_0378_1_LEFT_CC.jpg
+1
+76 380 105 127 1
+cancer_A_1520_1_LEFT_MLO.jpg
+0
+cancer_A_1823_1_RIGHT_CC.jpg
+1
+42 406 134 128 1
+benign_C_0305_1_LEFT_MLO.jpg
+0
+benign_C_0402_1_LEFT_CC.jpg
+0
+cancer_C_0180_1_LEFT_CC.jpg
+1
+146 399 139 161 1
+benign_A_1323_1_LEFT_MLO.jpg
+1
+352 557 100 90 1
+cancer_C_0192_1_RIGHT_CC.jpg
+1
+244 612 92 89 1
+cancer_D_4128_1_RIGHT_MLO.jpg
+0
+cancer_B_3061_1_RIGHT_CC.jpg
+1
+201 196 388 255 1
+benign_B_3490_1_RIGHT_CC.jpg
+1
+586 345 57 66 1
+cancer_B_3048_1_RIGHT_CC.jpg
+1
+394 167 195 76 1
+cancer_C_0159_1_RIGHT_CC.jpg
+1
+151 226 321 726 1
+cancer_A_1237_1_RIGHT_MLO.jpg
+0
+benign_A_1264_1_LEFT_MLO.jpg
+0
+benign_D_4064_1_RIGHT_CC.jpg
+1
+373 691 177 156 1
+benign_D_4058_1_LEFT_MLO.jpg
+1
+83 543 152 155 1
+benign_C_0317_1_RIGHT_MLO.jpg
+1
+335 865 82 53 1
+benign_B_3356_1_LEFT_CC.jpg
+0
+cancer_C_0208_1_RIGHT_CC.jpg
+1
+575 247 148 182 1
+cancer_C_0080_1_RIGHT_MLO.jpg
+0
+benign_C_0324_1_RIGHT_MLO.jpg
+1
+369 548 199 169 1
+benign_A_1765_1_LEFT_CC.jpg
+0
+benign_C_0401_1_RIGHT_MLO.jpg
+0
+benign_C_0402_1_LEFT_MLO.jpg
+0
+benign_B_3490_1_LEFT_CC.jpg
+0
+benign_A_1948_1_RIGHT_CC.jpg
+0
+benign_C_0279_1_RIGHT_CC.jpg
+1
+465 279 149 170 1
+cancer_D_4034_1_LEFT_MLO.jpg
+1
+301 515 131 122 1
+cancer_A_1243_1_RIGHT_MLO.jpg
+0
+benign_A_1709_1_LEFT_MLO.jpg
+1
+497 867 47 36 1
+cancer_A_1404_1_LEFT_CC.jpg
+1
+349 282 167 198 1
+benign_A_1397_1_RIGHT_CC.jpg
+1
+41 534 156 134 1
+benign_A_1781_1_RIGHT_MLO.jpg
+1
+131 745 86 64 1
+benign_A_1842_1_LEFT_MLO.jpg
+1
+474 861 63 50 1
+benign_C_0364_1_LEFT_CC.jpg
+2
+1 447 103 138 1
+124 477 69 84 1
+benign_D_4029_1_LEFT_CC.jpg
+0
+cancer_C_0092_1_LEFT_CC.jpg
+0
+cancer_B_3067_1_LEFT_MLO.jpg
+0
+benign_D_4072_1_RIGHT_CC.jpg
+0
+benign_A_1423_1_RIGHT_CC.jpg
+0
+cancer_A_1539_1_LEFT_CC.jpg
+0
+benign_B_3154_1_LEFT_MLO.jpg
+1
+317 815 35 33 1
+benign_B_3123_1_RIGHT_CC.jpg
+0
+cancer_C_0101_1_RIGHT_MLO.jpg
+1
+466 609 155 197 1
+cancer_A_1467_1_LEFT_MLO.jpg
+0
+cancer_B_3047_1_LEFT_MLO.jpg
+1
+252 572 127 135 1
+benign_B_3365_1_RIGHT_MLO.jpg
+1
+545 631 48 47 1
+benign_C_0388_1_LEFT_MLO.jpg
+1
+52 357 89 86 1
+benign_C_0378_1_RIGHT_CC.jpg
+0
+benign_A_1421_1_LEFT_CC.jpg
+0
+benign_D_4086_1_LEFT_CC.jpg
+1
+371 540 110 104 1
+cancer_B_3067_1_RIGHT_CC.jpg
+1
+212 567 42 49 1
+benign_A_1634_1_RIGHT_CC.jpg
+0
+cancer_B_3441_1_RIGHT_CC.jpg
+1
+364 471 161 124 1
+cancer_A_1589_1_LEFT_MLO.jpg
+1
+482 433 45 43 1
+benign_C_0317_1_LEFT_CC.jpg
+0
+benign_C_0312_1_RIGHT_CC.jpg
+0
+cancer_C_0191_1_LEFT_MLO.jpg
+2
+60 306 145 174 1
+44 489 253 228 1
+cancer_C_0034_1_LEFT_MLO.jpg
+0
+cancer_A_1060_1_RIGHT_CC.jpg
+0
+benign_D_4062_1_RIGHT_MLO.jpg
+1
+422 482 96 110 1
+benign_D_4029_1_RIGHT_CC.jpg
+1
+130 589 101 104 1
+benign_A_1414_1_LEFT_CC.jpg
+0
+cancer_C_0108_1_LEFT_MLO.jpg
+1
+7 343 292 354 1
+cancer_C_0108_1_LEFT_CC.jpg
+1
+2 191 236 268 1
+benign_B_3144_1_LEFT_CC.jpg
+0
+cancer_A_1212_1_RIGHT_MLO.jpg
+0
+cancer_A_1060_1_LEFT_CC.jpg
+1
+269 608 49 67 1
+benign_B_3483_1_LEFT_MLO.jpg
+0
+benign_A_1842_1_RIGHT_MLO.jpg
+0
+cancer_D_4049_1_RIGHT_CC.jpg
+1
+496 217 119 163 1
+benign_C_0312_1_LEFT_MLO.jpg
+1
+354 679 89 65 1
+cancer_C_0215_1_LEFT_CC.jpg
+1
+1 442 124 143 1
+benign_A_1454_1_RIGHT_MLO.jpg
+0
+cancer_C_0228_1_LEFT_MLO.jpg
+1
+81 362 111 159 1
+cancer_A_1417_1_RIGHT_MLO.jpg
+1
+70 401 91 84 1
+cancer_A_1511_1_RIGHT_MLO.jpg
+1
+288 563 114 129 1
+cancer_A_1499_1_RIGHT_MLO.jpg
+1
+371 669 50 39 1
+benign_B_3102_1_RIGHT_MLO.jpg
+1
+221 471 49 41 1
+benign_A_1801_1_RIGHT_MLO.jpg
+0
+cancer_B_3085_1_RIGHT_MLO.jpg
+0
+benign_A_1177_1_RIGHT_MLO.jpg
+1
+237 547 61 47 1
+cancer_C_0139_1_RIGHT_MLO.jpg
+1
+341 194 129 204 1
+cancer_B_3413_1_LEFT_MLO.jpg
+1
+7 452 135 109 1
+cancer_D_4173_1_LEFT_MLO.jpg
+1
+191 903 399 163 1
+cancer_A_1539_1_LEFT_MLO.jpg
+0
+benign_A_1421_1_LEFT_MLO.jpg
+0
+cancer_C_0070_1_LEFT_MLO.jpg
+1
+49 668 141 173 1
+cancer_C_0080_1_LEFT_MLO.jpg
+1
+63 359 159 193 1
+cancer_A_1010_1_LEFT_CC.jpg
+0
+benign_A_1761_1_LEFT_MLO.jpg
+1
+255 696 45 53 1
+cancer_D_4128_1_LEFT_CC.jpg
+1
+133 421 206 199 1
+cancer_C_0180_1_RIGHT_CC.jpg
+0
+benign_D_4029_1_RIGHT_MLO.jpg
+1
+135 633 130 102 1
+cancer_A_1404_1_RIGHT_MLO.jpg
+0
+cancer_C_0034_1_RIGHT_CC.jpg
+1
+338 165 145 150 1
+benign_A_1771_1_RIGHT_CC.jpg
+1
+128 816 148 93 1
+cancer_C_0340_1_LEFT_CC.jpg
+1
+314 452 148 157 1
+cancer_A_1147_1_RIGHT_MLO.jpg
+0
+cancer_C_0085_1_RIGHT_MLO.jpg
+1
+316 417 164 152 1
+cancer_C_0204_1_LEFT_MLO.jpg
+1
+263 924 161 151 1
+cancer_C_0139_1_LEFT_MLO.jpg
+0

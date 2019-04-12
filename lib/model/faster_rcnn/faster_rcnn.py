@@ -14,6 +14,7 @@ from model.roi_align.modules.roi_align import RoIAlignAvg
 from model.rpn.proposal_target_layer_cascade import _ProposalTargetLayer
 import time
 import pdb
+import matplotlib.pyplot as plt
 from model.utils.net_utils import _smooth_l1_loss, _crop_pool_layer, _affine_grid_gen, _affine_theta
 
 class _fasterRCNN(nn.Module):
@@ -35,8 +36,27 @@ class _fasterRCNN(nn.Module):
 
         self.grid_size = cfg.POOLING_SIZE * 2 if cfg.CROP_RESIZE_WITH_MAX_POOL else cfg.POOLING_SIZE
         self.RCNN_roi_crop = _RoICrop()
-
+        self.CatConv = nn.Conv2d(2048,1024,1)
     def forward(self, im_data, im_info, gt_boxes, num_boxes):
+
+        img = im_data.squeeze()
+        img_arr = np.array(img)
+        img_trans = img_arr.transpose((1,2,0))
+        L = img_trans[:,:,1]
+        im_L = L[:, :, np.newaxis]
+        im_L = np.concatenate((im_L, im_L, im_L), axis=2)
+        R = img_trans[:,:,2]
+        im_R = R[:, :, np.newaxis]
+        im_R = np.concatenate((im_R, im_R, im_R), axis=2)
+        L_tensor = torch.from_numpy(im_L.transpose((2,0,1))).unsqueeze(0).cuda()
+        R_tensor = torch.from_numpy(im_R.transpose((2,0,1))).unsqueeze(0).cuda()
+        # plt.figure()
+        # plt.imshow(L,cmap='gray')
+        # plt.show()
+        # plt.figure()
+        # plt.imshow(R,cmap='gray')
+        # plt.show()
+
         batch_size = im_data.size(0)
 
         im_info = im_info.data
@@ -44,7 +64,10 @@ class _fasterRCNN(nn.Module):
         num_boxes = num_boxes.data
 
         # feed image data to base model to obtain base feature map
-        base_feat = self.RCNN_base(im_data)
+        base_feat1 = self.RCNN_base1(L_tensor)
+        base_feat2 = self.RCNN_base2(R_tensor)
+        base_feat = self.CatConv(torch.cat([base_feat1,base_feat2],1))
+        # base_feat = self.RCNN_base(im_data)
 
         # feed base feature map tp RPN to obtain rois
         rois, rpn_loss_cls, rpn_loss_bbox = self.RCNN_rpn(base_feat, im_info, gt_boxes, num_boxes)
