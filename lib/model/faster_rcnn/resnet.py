@@ -2,8 +2,8 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from model.utils.config import cfg
-from model.faster_rcnn.faster_rcnn import _fasterRCNN
+from lib.model.utils.config import cfg
+from lib.model.faster_rcnn.faster_rcnn import _fasterRCNN
 
 import torch
 import torch.nn as nn
@@ -185,7 +185,7 @@ def resnet34(pretrained=False):
   return model
 
 
-def resnet50(pretrained=False):
+def resnet50(pretrained=True):
   """Constructs a ResNet-50 model.
   Args:
     pretrained (bool): If True, returns a model pre-trained on ImageNet
@@ -223,16 +223,20 @@ class resnet(_fasterRCNN):
     self.dout_base_model = 1024
     self.pretrained = pretrained
     self.class_agnostic = class_agnostic
+    self.num_layers = num_layers
+    self.resnet_dict = {'18':resnet18(self.pretrained), '34':resnet34(self.pretrained),
+                        '50':resnet50(self.pretrained), '101': resnet101(self.pretrained),
+                        '152': resnet152(self.pretrained)}
 
     _fasterRCNN.__init__(self, classes, class_agnostic)
 
   def _init_modules(self):
-    resnet = resnet101()
+    resnet = self.resnet_dict['{}'.format(self.num_layers)]
 
-    if self.pretrained == True:
-      print("Loading pretrained weights from %s" %(self.model_path))
-      state_dict = torch.load(self.model_path)
-      resnet.load_state_dict({k:v for k,v in state_dict.items() if k in resnet.state_dict()})
+    # if self.pretrained == True:
+    #   print("Loading pretrained weights from %s" %(self.model_path))
+    #   state_dict = torch.load(self.model_path)
+    #   resnet.load_state_dict({k:v for k,v in state_dict.items() if k in resnet.state_dict()})
 
     # Build resnet.
     self.RCNN_base1 = nn.Sequential(resnet.conv1, resnet.bn1,resnet.relu,
