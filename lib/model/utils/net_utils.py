@@ -1,4 +1,5 @@
 import torch
+import shutil
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
@@ -66,8 +67,13 @@ def adjust_learning_rate(optimizer, decay=0.1):
         param_group['lr'] = decay * param_group['lr']
 
 
-def save_checkpoint(state, filename):
+# def save_checkpoint(state, filename):
+#     torch.save(state, filename)
+
+def save_checkpoint(state, filename, is_minimal=False):
     torch.save(state, filename)
+    if is_minimal:
+        shutil.copyfile(filename, 'model_best.pth.tar')
 
 def _smooth_l1_loss(bbox_pred, bbox_targets, bbox_inside_weights, bbox_outside_weights, sigma=1.0, dim=[1]):
     
