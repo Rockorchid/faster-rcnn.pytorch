@@ -73,7 +73,7 @@ def adjust_learning_rate(optimizer, decay=0.1):
 def save_checkpoint(state, filename, is_minimal=False):
     torch.save(state, filename)
     if is_minimal:
-        shutil.copyfile(filename, 'model_best.pth.tar')
+        shutil.copyfile(filename, filename.split('.pth')[:-1]+'model_best.pth')
 
 def _smooth_l1_loss(bbox_pred, bbox_targets, bbox_inside_weights, bbox_outside_weights, sigma=1.0, dim=[1]):
     

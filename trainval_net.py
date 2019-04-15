@@ -271,10 +271,12 @@ if __name__ == '__main__':
     fasterRCNN = vgg16(imdb_train.classes, pretrained=True, class_agnostic=args.class_agnostic)
   elif args.net == 'res18':
     fasterRCNN = resnet(imdb_train.classes, 18, pretrained=True, class_agnostic=args.class_agnostic)
-  elif args.net == 'res101':
-    fasterRCNN = resnet(imdb_train.classes, 101, pretrained=True, class_agnostic=args.class_agnostic)
+  elif args.net == 'res34':
+    fasterRCNN = resnet(imdb_train.classes, 34, pretrained=True, class_agnostic=args.class_agnostic)
   elif args.net == 'res50':
     fasterRCNN = resnet(imdb_train.classes, 50, pretrained=True, class_agnostic=args.class_agnostic)
+  elif args.net == 'res101':
+    fasterRCNN = resnet(imdb_train.classes, 101, pretrained=True, class_agnostic=args.class_agnostic)
   elif args.net == 'res152':
     fasterRCNN = resnet(imdb_train.classes, 152, pretrained=True, class_agnostic=args.class_agnostic)
   else:
@@ -419,23 +421,19 @@ if __name__ == '__main__':
       RCNN_loss_cls_test, RCNN_loss_bbox_test, \
       rois_label_test = fasterRCNN(im_data_test, im_info_test, gt_boxes_test, num_boxes_test)
 
-      loss_test = rpn_loss_cls_test.mean() + rpn_loss_box_test.mean() \
-           + RCNN_loss_cls_test.mean() + RCNN_loss_bbox_test.mean()
+      loss_test = RCNN_loss_cls_test.mean() + RCNN_loss_bbox_test.mean()
       loss_temp_test += loss_test.item()
 
     print("[epoch %2d] loss: %.4f" \
         % (epoch, loss_temp_test/len(imdb_test.image_index)))
 
     if args.use_tfboard:
-        info_test = {
-            'loss_test': loss_temp_test/len(imdb_test.image_index)
-        }
-        logger.add_scalars("logs_s_{}/losses".format(args.session), info_test, epoch)
+        logger.add_scalar("logs_s_{}/loss_test".format(args.session), loss_temp_test/len(imdb_test.image_index), epoch)
     # is_minimal = False
     if loss_temp_test < minimal_test_loss:
         is_minimal = True
         minimal_test_loss = loss_temp_test
-    save_name = os.path.join(output_dir, 'faster_rcnn_{}_{}_{}.pth'.format(args.session, epoch, step))
+    save_name = os.path.join(output_dir, 'faster_rcnn_{}_{}_{}.pth'.format(args.session, epoch, loss_temp_test/len(imdb_test.image_index)))
     save_checkpoint({
       'session': args.session,
       'epoch': epoch + 1,
