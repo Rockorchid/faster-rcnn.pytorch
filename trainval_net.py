@@ -327,7 +327,7 @@ if __name__ == '__main__':
   if args.use_tfboard:
     from tensorboardX import SummaryWriter
     logger = SummaryWriter("logs")
-  minimal_test_loss = 10
+  minimal_test_loss = float('Inf')
   for epoch in range(args.start_epoch, args.max_epochs + 1):
     ###### Train
     fasterRCNN.train()
@@ -426,10 +426,10 @@ if __name__ == '__main__':
 
     if args.use_tfboard:
         info_test = {
-            'loss_test': loss_temp_test
+            'loss_test': loss_temp_test/len(imdb_test.image_index)
         }
         logger.add_scalars("logs_s_{}/losses".format(args.session), info_test, epoch)
-
+    # is_minimal = False
     if loss_temp_test < minimal_test_loss:
         is_minimal = True
         minimal_test_loss = loss_temp_test
