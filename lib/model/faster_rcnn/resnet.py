@@ -220,7 +220,8 @@ def resnet152(pretrained=False):
 class resnet(_fasterRCNN):
   def __init__(self, classes, num_layers=101, pretrained=False, class_agnostic=False):
     # self.model_path = 'data/pretrained_model/resnet101_caffe.pth'
-    self.dout_base_model = 1024
+    self.dout_base_model_dict = {'18': 256, '34': 256, '50': 1024, '101': 1024, '152':1024}
+    self.dout_base_model = self.dout_base_model_dict['{}'.format(num_layers)]
     self.pretrained = pretrained
     self.class_agnostic = class_agnostic
     self.num_layers = num_layers
@@ -247,11 +248,11 @@ class resnet(_fasterRCNN):
 
     self.RCNN_top = nn.Sequential(resnet.layer4)
 
-    self.RCNN_cls_score = nn.Linear(2048, self.n_classes)
+    self.RCNN_cls_score = nn.Linear(2 * self.dout_base_model, self.n_classes)
     if self.class_agnostic:
-      self.RCNN_bbox_pred = nn.Linear(2048, 4)
+      self.RCNN_bbox_pred = nn.Linear(2 * self.dout_base_model, 4)
     else:
-      self.RCNN_bbox_pred = nn.Linear(2048, 4 * self.n_classes)
+      self.RCNN_bbox_pred = nn.Linear(2 * self.dout_base_model, 4 * self.n_classes)
 
     # Fix blocks
     for p in self.RCNN_base1[0].parameters(): p.requires_grad=False
