@@ -433,7 +433,7 @@ if __name__ == '__main__':
     if loss_temp_test < minimal_test_loss:
         is_minimal = True
         minimal_test_loss = loss_temp_test
-    save_name = os.path.join(output_dir, 'faster_rcnn_{}_{}_{}.pth'.format(args.session, epoch, loss_temp_test/len(imdb_test.image_index)))
+    save_name = os.path.join(output_dir, 'faster_rcnn_{}.pth'.format(args.session))
     save_checkpoint({
       'session': args.session,
       'epoch': epoch + 1,
