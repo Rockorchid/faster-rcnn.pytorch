@@ -155,7 +155,7 @@ if __name__ == '__main__':
   if args.dataset == "pascal_voc":
       args.imdb_name = "voc_2007_trainval"
       args.imdbval_name = "voc_2007_test"
-      args.set_cfgs = ['ANCHOR_SCALES', '[8, 16, 32]', 'ANCHOR_RATIOS', '[0.5,1,2]', 'MAX_NUM_GT_BOXES', '10']
+      args.set_cfgs = ['ANCHOR_SCALES', '[4, 8, 16, 32]', 'ANCHOR_RATIOS', '[0.5,1,2]', 'MAX_NUM_GT_BOXES', '10']
   elif args.dataset == "pascal_voc_0712":
       args.imdb_name = "voc_2007_trainval+voc_2012_trainval"
       args.imdbval_name = "voc_2007_test"
@@ -269,6 +269,8 @@ if __name__ == '__main__':
   # initilize the network here.
   if args.net == 'vgg16':
     fasterRCNN = vgg16(imdb_train.classes, pretrained=True, class_agnostic=args.class_agnostic)
+  elif args.net == 'res18':
+    fasterRCNN = resnet(imdb_train.classes, 18, pretrained=True, class_agnostic=args.class_agnostic)
   elif args.net == 'res101':
     fasterRCNN = resnet(imdb_train.classes, 101, pretrained=True, class_agnostic=args.class_agnostic)
   elif args.net == 'res50':
