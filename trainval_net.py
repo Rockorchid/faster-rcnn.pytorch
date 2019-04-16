@@ -78,6 +78,9 @@ def parse_args():
   parser.add_argument('--cag', dest='class_agnostic',
                       help='whether to perform class_agnostic bbox regression',
                       action='store_true')
+  parser.add_argument('--demo',dest='demo',
+                      help='is demo or not',
+                      action='store_true')
 
 # config optimization
   parser.add_argument('--o', dest='optimizer',
@@ -190,6 +193,8 @@ if __name__ == '__main__':
   if torch.cuda.is_available() and not args.cuda:
     print("WARNING: You have a CUDA device, so you should probably run with --cuda")
 
+  if args.demo:
+      cfg.DEMO = True
   # train set
   # -- Note: Use validation set and disable the flipped to enable faster loading.
   cfg.TRAIN.USE_FLIPPED = True

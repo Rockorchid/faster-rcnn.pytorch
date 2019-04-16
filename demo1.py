@@ -27,14 +27,14 @@ import torchvision.datasets as dset
 from scipy.misc import imread
 from roi_data_layer.roidb import combined_roidb
 from roi_data_layer.roibatchLoader import roibatchLoader
-from model.utils.config import cfg, cfg_from_file, cfg_from_list, get_output_dir
-from model.rpn.bbox_transform import clip_boxes
-from model.nms.nms_wrapper import nms
-from model.rpn.bbox_transform import bbox_transform_inv
-from model.utils.net_utils import save_net, load_net, vis_detections
-from model.utils.blob import im_list_to_blob
-from model.faster_rcnn.vgg16 import vgg16
-from model.faster_rcnn.resnet import resnet
+from lib.model.utils.config import cfg, cfg_from_file, cfg_from_list, get_output_dir
+from lib.model.rpn.bbox_transform import clip_boxes
+from lib.model.nms.nms_wrapper import nms
+from lib.model.rpn.bbox_transform import bbox_transform_inv
+from lib.model.utils.net_utils import save_net, load_net, vis_detections
+from lib.model.utils.blob import im_list_to_blob
+from lib.model.faster_rcnn.vgg16 import vgg16
+from lib.model.faster_rcnn.resnet import resnet
 import pdb
 
 try:
@@ -60,6 +60,10 @@ def parse_args():
   parser.add_argument('--set', dest='set_cfgs',
                       help='set config keys', default=None,
                       nargs=argparse.REMAINDER)
+  parser.add_argument('--demo',dest='demo',
+                      help='is demo or not',
+                      action='store_true')
+
   parser.add_argument('--load_dir', dest='load_dir',
                       help='directory to load models',
                       default="/srv/share/jyang375/models")
@@ -138,8 +142,8 @@ def _get_image_blob(im):
 
   return blob, np.array(im_scale_factors)
 
-databox=open("/home/sun/桌面/faster-rcnn/froc_data.txt",'w+')
-dataprob=open("/home/sun/桌面/faster-rcnn/roc_data.txt",'w+')
+databox=open("/home/runze/codes/faster-rcnn.pytorch/froc_data.txt",'w+')
+dataprob=open("/home/runze/codes/faster-rcnn.pytorch/roc_data.txt",'w+')
 
 if __name__ == '__main__':
 
@@ -154,7 +158,8 @@ if __name__ == '__main__':
     cfg_from_list(args.set_cfgs)
 
   cfg.USE_GPU_NMS = args.cuda
-
+  if args.demo:
+      cfg.DEMO = True
   print('Using config:')
   pprint.pprint(cfg)
   np.random.seed(cfg.RNG_SEED)
@@ -166,7 +171,7 @@ if __name__ == '__main__':
   if not os.path.exists(input_dir):
     raise Exception('There is no input directory for loading network from ' + input_dir)
   load_name = os.path.join(input_dir,
-    'faster_rcnn_{}_{}_{}.pth'.format(args.checksession, args.checkepoch, args.checkpoint))
+    'faster_rcnn_{}_model_best.pth'.format(args.checksession))
 
   pascal_classes = np.asarray(['__background__',
                           'benign', 'malignant'])
@@ -174,6 +179,8 @@ if __name__ == '__main__':
   # initilize the network here.
   if args.net == 'vgg16':
     fasterRCNN = vgg16(pascal_classes, pretrained=False, class_agnostic=args.class_agnostic)
+  elif args.net == 'res18':
+    fasterRCNN = resnet(pascal_classes, 18, pretrained=False, class_agnostic=args.class_agnostic)
   elif args.net == 'res101':
     fasterRCNN = resnet(pascal_classes, 101, pretrained=False, class_agnostic=args.class_agnostic)
   elif args.net == 'res50':
