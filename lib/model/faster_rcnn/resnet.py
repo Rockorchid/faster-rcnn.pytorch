@@ -220,19 +220,24 @@ def resnet152(pretrained=False):
 class resnet(_fasterRCNN):
   def __init__(self, classes, num_layers=101, pretrained=False, class_agnostic=False):
     self.model_path = 'data/pretrained_model/resnet101_caffe.pth'
-    self.dout_base_model = 1024
+    self.dout_base_model_dict = {'18': 256, '34': 256, '50': 1024, '101': 1024, '152':1024}
+    self.dout_base_model = self.dout_base_model_dict['{}'.format(num_layers)]
     self.pretrained = pretrained
     self.class_agnostic = class_agnostic
+    self.num_layers = num_layers
+    self.resnet_dict = {'18': resnet18(self.pretrained), '34': resnet34(self.pretrained),
+                        '50': resnet50(self.pretrained), '101': resnet101(self.pretrained),
+                        '152': resnet152(self.pretrained)}
 
     _fasterRCNN.__init__(self, classes, class_agnostic)
 
   def _init_modules(self):
-    resnet = resnet101()
+    resnet = self.resnet_dict['{}'.format(self.num_layers)]
 
-    if self.pretrained == True:
-      print("Loading pretrained weights from %s" %(self.model_path))
-      state_dict = torch.load(self.model_path)
-      resnet.load_state_dict({k:v for k,v in state_dict.items() if k in resnet.state_dict()})
+    # if self.pretrained == True:
+    #   print("Loading pretrained weights from %s" %(self.model_path))
+    #   state_dict = torch.load(self.model_path)
+    #   resnet.load_state_dict({k:v for k,v in state_dict.items() if k in resnet.state_dict()})
 
     # Build resnet.
     self.RCNN_base = nn.Sequential(resnet.conv1, resnet.bn1,resnet.relu,
@@ -240,11 +245,12 @@ class resnet(_fasterRCNN):
 
     self.RCNN_top = nn.Sequential(resnet.layer4)
 
-    self.RCNN_cls_score = nn.Linear(2048, self.n_classes)
+
+    self.RCNN_cls_score = nn.Linear(2 * self.dout_base_model, self.n_classes)
     if self.class_agnostic:
-      self.RCNN_bbox_pred = nn.Linear(2048, 4)
+      self.RCNN_bbox_pred = nn.Linear(2 * self.dout_base_model, 4)
     else:
-      self.RCNN_bbox_pred = nn.Linear(2048, 4 * self.n_classes)
+      self.RCNN_bbox_pred = nn.Linear(2 * self.dout_base_model, 4 * self.n_classes)
 
     # Fix blocks
     for p in self.RCNN_base[0].parameters(): p.requires_grad=False

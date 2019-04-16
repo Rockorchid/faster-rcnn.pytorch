@@ -98,14 +98,14 @@ def filter_roidb(roidb):
     print('after filtering, there are %d images...' % (len(roidb)))
     return roidb
 
-def combined_roidb(imdb_names, training=True):
+def combined_roidb(imdb_names, use_flipped,training=True):
   """
   Combine multiple roidbs
   """
 
   def get_training_roidb(imdb):
     """Returns a roidb (Region of Interest database) for use in training."""
-    if cfg.TRAIN.USE_FLIPPED:
+    if use_flipped:
       print('Appending horizontally-flipped training examples...')
       imdb.append_flipped_images()
       print('done')
