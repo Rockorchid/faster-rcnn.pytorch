@@ -36,7 +36,7 @@ class _fasterRCNN(nn.Module):
 
         self.grid_size = cfg.POOLING_SIZE * 2 if cfg.CROP_RESIZE_WITH_MAX_POOL else cfg.POOLING_SIZE
         self.RCNN_roi_crop = _RoICrop()
-        # self.CatConv = nn.Conv2d(2048,1024,1)
+        self.CatConv = nn.Conv2d(2*self.dout_base_model,self.dout_base_model,1)
     def forward(self, im_data, im_info, gt_boxes, num_boxes):
 
         img = im_data.squeeze()
@@ -60,7 +60,8 @@ class _fasterRCNN(nn.Module):
         # feed image data to base model to obtain base feature map
         base_feat1 = self.RCNN_base1(L_tensor)
         base_feat2 = self.RCNN_base2(R_tensor)
-        base_feat = base_feat1 - base_feat2
+        base_feat = self.CatConv(torch.cat([base_feat1, base_feat2], 1))
+        # base_feat = base_feat1 - base_feat2
         # base_feat = self.RCNN_base(im_data)
 
         # feed base feature map tp RPN to obtain rois
