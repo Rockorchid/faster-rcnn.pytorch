@@ -28,7 +28,10 @@ from lib.roi_data_layer.roidb import combined_roidb
 from lib.roi_data_layer.roibatchLoader import roibatchLoader
 from lib.model.utils.config import cfg, cfg_from_file, cfg_from_list, get_output_dir
 from lib.model.utils.net_utils import weights_normal_init, save_net, load_net, \
-      adjust_learning_rate, save_checkpoint, clip_gradient
+      adjust_learning_rate, save_checkpoint, clip_gradient, get_gt
+
+from sklearn import metrics
+import xml.etree.ElementTree as ET
 
 from lib.model.faster_rcnn.vgg16 import vgg16
 from lib.model.faster_rcnn.resnet import resnet
@@ -77,9 +80,6 @@ def parse_args():
                       default=1, type=int)
   parser.add_argument('--cag', dest='class_agnostic',
                       help='whether to perform class_agnostic bbox regression',
-                      action='store_true')
-  parser.add_argument('--demo',dest='demo',
-                      help='is demo or not',
                       action='store_true')
 
 # config optimization
@@ -193,8 +193,6 @@ if __name__ == '__main__':
   if torch.cuda.is_available() and not args.cuda:
     print("WARNING: You have a CUDA device, so you should probably run with --cuda")
 
-  if args.demo:
-      cfg.DEMO = True
   # train set
   # -- Note: Use validation set and disable the flipped to enable faster loading.
   cfg.TRAIN.USE_FLIPPED = True
@@ -336,7 +334,7 @@ if __name__ == '__main__':
   if args.use_tfboard:
     from tensorboardX import SummaryWriter
     logger = SummaryWriter("logs")
-  minimal_test_loss = float('Inf')
+  best_auc = 0
   for epoch in range(args.start_epoch, args.max_epochs + 1):
     ###### Train
     fasterRCNN.train()
@@ -412,8 +410,9 @@ if __name__ == '__main__':
 
     ##Test
     fasterRCNN.eval()
-    loss_temp_test = 0
     test_data_iter = iter(test_dataloader)
+    gts = []
+    scores = []
     for i in range(len(imdb_test.image_index)):
       test_data = next(test_data_iter)
       im_data_test.data.resize_(test_data[0].size()).copy_(test_data[0])
@@ -426,18 +425,21 @@ if __name__ == '__main__':
       RCNN_loss_cls_test, RCNN_loss_bbox_test, \
       rois_label_test = fasterRCNN(im_data_test, im_info_test, gt_boxes_test, num_boxes_test)
 
-      loss_test = RCNN_loss_cls_test.mean() + RCNN_loss_bbox_test.mean()
-      loss_temp_test += loss_test.item()
+      score = max(cls_prob_test.data.squeeze()[:,2].cpu().numpy())
+      scores.append(score)
+      gt = get_gt(os.path.join('data/VOCdevkit2007/VOC2007/Annotations',
+            test_dataloader.dataset._roidb[i]['image'].split('/')[-1].split('.')[0]+'.xml'))
+      gts.append(gt)
+    fpr, tpr, thresholds = metrics.roc_curve(gts, scores, drop_intermediate=False)
+    auc = metrics.auc(fpr, tpr)
 
-    print("[epoch %2d] loss: %.4f" \
-        % (epoch, loss_temp_test/len(imdb_test.image_index)))
+    print("[epoch %2d] AUC: %.4f" % (epoch, auc))
 
     if args.use_tfboard:
-        logger.add_scalar("logs_s_{}/loss_test".format(args.session), loss_temp_test/len(imdb_test.image_index), epoch)
-    # is_minimal = False
-    if loss_temp_test < minimal_test_loss:
-        is_minimal = True
-        minimal_test_loss = loss_temp_test
+        logger.add_scalar("logs_s_{}/AUC_test".format(args.session), auc, epoch)
+    if auc > best_auc:
+        is_best = True
+        best_auc = auc
     save_name = os.path.join(output_dir, 'faster_rcnn_{}.pth'.format(args.session))
     save_checkpoint({
       'session': args.session,
@@ -446,7 +448,7 @@ if __name__ == '__main__':
       'optimizer': optimizer.state_dict(),
       'pooling_mode': cfg.POOLING_MODE,
       'class_agnostic': args.class_agnostic,
-    }, save_name, is_minimal=is_minimal)
+    }, save_name, is_best=is_best)
     print('save model: {}'.format(save_name))
     loss_temp_test = 0
 

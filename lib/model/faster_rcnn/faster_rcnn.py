@@ -50,12 +50,6 @@ class _fasterRCNN(nn.Module):
         im_R = np.concatenate((im_R, im_R, im_R), axis=2)
         L_tensor = torch.from_numpy(im_L.transpose((2,0,1))).unsqueeze(0).cuda()
         R_tensor = torch.from_numpy(im_R.transpose((2,0,1))).unsqueeze(0).cuda()
-        # plt.figure()
-        # plt.imshow(L,cmap='gray')
-        # plt.show()
-        # plt.figure()
-        # plt.imshow(R,cmap='gray')
-        # plt.show()
 
         batch_size = im_data.size(0)
 
@@ -101,7 +95,7 @@ class _fasterRCNN(nn.Module):
 
         # compute bbox offset
         bbox_pred = self.RCNN_bbox_pred(pooled_feat)
-        if not cfg.DEMO and not self.class_agnostic:
+        if self.training and not self.class_agnostic:
             # select the corresponding columns according to roi labels
             bbox_pred_view = bbox_pred.view(bbox_pred.size(0), int(bbox_pred.size(1) / 4), 4)
             bbox_pred_select = torch.gather(bbox_pred_view, 1, rois_label.view(rois_label.size(0), 1, 1).expand(rois_label.size(0), 1, 4))
@@ -114,7 +108,7 @@ class _fasterRCNN(nn.Module):
         RCNN_loss_cls = 0
         RCNN_loss_bbox = 0
 
-        if not cfg.DEMO:
+        if self.training:
             # classification loss
             RCNN_loss_cls = F.cross_entropy(cls_score, rois_label)
 

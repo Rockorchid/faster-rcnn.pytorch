@@ -10,6 +10,8 @@ from model.roi_crop.functions.roi_crop import RoICropFunction
 import cv2
 import pdb
 import random
+import xml.etree.ElementTree as ET
+
 
 def save_net(fname, net):
     import h5py
@@ -66,13 +68,24 @@ def adjust_learning_rate(optimizer, decay=0.1):
     for param_group in optimizer.param_groups:
         param_group['lr'] = decay * param_group['lr']
 
-
+def get_gt(xml):
+    tree = ET.parse(xml)
+    root = tree.getroot()
+    node = root.findall("object")
+    if node == []:
+        return 0.
+    else:
+        clas = node[0].find('name')
+        if clas.text == 'malignant':
+            return 1.
+        else:
+            return 0.
 # def save_checkpoint(state, filename):
 #     torch.save(state, filename)
 
-def save_checkpoint(state, filename, is_minimal=False):
+def save_checkpoint(state, filename, is_best=False):
     torch.save(state, filename)
-    if is_minimal:
+    if is_best:
         shutil.copyfile(filename, filename.split('.pth')[:-1][0]+'_model_best.pth')
 
 def _smooth_l1_loss(bbox_pred, bbox_targets, bbox_inside_weights, bbox_outside_weights, sigma=1.0, dim=[1]):

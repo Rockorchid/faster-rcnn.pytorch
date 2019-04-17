@@ -60,9 +60,6 @@ def parse_args():
   parser.add_argument('--set', dest='set_cfgs',
                       help='set config keys', default=None,
                       nargs=argparse.REMAINDER)
-  parser.add_argument('--demo',dest='demo',
-                      help='is demo or not',
-                      action='store_true')
 
   parser.add_argument('--load_dir', dest='load_dir',
                       help='directory to load models',
@@ -158,8 +155,7 @@ if __name__ == '__main__':
     cfg_from_list(args.set_cfgs)
 
   cfg.USE_GPU_NMS = args.cuda
-  if args.demo:
-      cfg.DEMO = True
+
   print('Using config:')
   pprint.pprint(cfg)
   np.random.seed(cfg.RNG_SEED)

@@ -13,8 +13,6 @@ __C = edict()
 #   from fast_rcnn_config import cfg
 cfg = __C
 
-__C.DEMO = False
-#
 # Training options
 #
 __C.TRAIN = edict()

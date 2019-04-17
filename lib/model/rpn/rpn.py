@@ -80,7 +80,7 @@ class _RPN(nn.Module):
         self.rpn_loss_cls = 0
         self.rpn_loss_box = 0
 
-        if not cfg.DEMO:
+        if self.training:
             # generating training labels and build the rpn loss
             assert gt_boxes is not None
 
