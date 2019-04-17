@@ -79,7 +79,7 @@ class _fasterRCNN(nn.Module):
 
         # compute bbox offset
         bbox_pred = self.RCNN_bbox_pred(pooled_feat)
-        if not self.class_agnostic:
+        if self.training and not self.class_agnostic:
             # select the corresponding columns according to roi labels
             bbox_pred_view = bbox_pred.view(bbox_pred.size(0), int(bbox_pred.size(1) / 4), 4)
             bbox_pred_select = torch.gather(bbox_pred_view, 1, rois_label.view(rois_label.size(0), 1, 1).expand(rois_label.size(0), 1, 4))
@@ -89,11 +89,12 @@ class _fasterRCNN(nn.Module):
         cls_score = self.RCNN_cls_score(pooled_feat)
         cls_prob = F.softmax(cls_score, 1)
 
-        # classification loss
-        RCNN_loss_cls = F.cross_entropy(cls_score, rois_label)
+        if self.training:
+            # classification loss
+            RCNN_loss_cls = F.cross_entropy(cls_score, rois_label)
 
-        # bounding box regression L1 loss
-        RCNN_loss_bbox = _smooth_l1_loss(bbox_pred, rois_target, rois_inside_ws, rois_outside_ws)
+            # bounding box regression L1 loss
+            RCNN_loss_bbox = _smooth_l1_loss(bbox_pred, rois_target, rois_inside_ws, rois_outside_ws)
 
 
         cls_prob = cls_prob.view(batch_size, rois.size(1), -1)
