@@ -205,7 +205,7 @@ if __name__ == '__main__':
   cfg.TRAIN.USE_FLIPPED = False
   cfg.USE_GPU_NMS = args.cuda
   imdb_test, roidb_test, ratio_list_test, ratio_index_test = combined_roidb(args.imdbval_name,cfg.TRAIN.USE_FLIPPED,training=False)
-  # imdb_test.competition_mode(on=True)
+  imdb_test.competition_mode(on=True)
   print('{:d} roidb_train entries'.format(len(roidb_test)))
 
   output_dir = args.save_dir + "/" + args.net + "/" + args.dataset
@@ -223,10 +223,10 @@ if __name__ == '__main__':
 
   #test dataset dataloader
   test_dataset = roibatchLoader(roidb_test, ratio_list_test, ratio_index_test, args.batch_size, \
-                           imdb_test.num_classes)
+                           imdb_test.num_classes, training=False, normalize = False)
 
   test_dataloader = torch.utils.data.DataLoader(test_dataset, batch_size=args.batch_size,
-                                                 shuffle=False, num_workers=0)
+                                                 shuffle=False, num_workers=0,pin_memory=True)
 
   # initilize the train tensor holder here.
   im_data_train = torch.FloatTensor(1)
